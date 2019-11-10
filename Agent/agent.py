@@ -111,14 +111,14 @@ except Exception as e:
 f = open("data.json","w+")
 f.write(str(data))
 f.close()
-
+'''
 data = open("data.json", 'r').read()
 data = data.replace("b\"b","")
 data = data.replace("\"","")
 final = ast.literal_eval(data)
 data["uuid"] = uuid
 data["service"] = service_name
-
+'''
 print(data)
 #r = requests.post("http://localhost:9001/submit/",json=final)
 
