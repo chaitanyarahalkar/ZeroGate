@@ -1,0 +1,8 @@
+- Create Windows executable using cx_freeze and rerun the custom protocol handler 
+- Implement static list for ACE
+- Add exception handler to exception thrown by OSQuery
+- Implement SSO 
+- Format the payload correctly in . Fix JSON encoding issues in agent.py
+- Create a cross-platform agent.py script (For Windows, Linux and MacOS)
+- Create a packager and installer script 
+
