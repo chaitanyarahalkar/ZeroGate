@@ -1,0 +1,1192 @@
+select name,source from autoexec;
+W1110 21:46:36.477973 17868 ie_extensions.cpp:62] Failed to get class executables: ClsId not found in registry
+W1110 21:46:36.504902 17868 ie_extensions.cpp:62] Failed to get class executables: ClsId not found in registry
+I1110 21:46:37.212695 17868 registry.cpp:568] Failed to expand globs: Failed to open registry handle
+I1110 21:46:37.230610 17868 registry.cpp:568] Failed to expand globs: Failed to open registry handle
+I1110 21:46:37.231607 17868 registry.cpp:568] Failed to expand globs: Failed to open registry handle
+I1110 21:46:37.232605 17868 registry.cpp:568] Failed to expand globs: Failed to open registry handle
++---------------------------------------------------------------------------------------------------------+-----------------+
+| name                                                                                                    | source          |
++---------------------------------------------------------------------------------------------------------+-----------------+
+| Generic software device                                                                                 | drivers         |
+| WAN Miniport (Network Monitor)                                                                          | drivers         |
+| WAN Miniport (IPv6)                                                                                     | drivers         |
+| WAN Miniport (IP)                                                                                       | drivers         |
+| WAN Miniport (PPPOE)                                                                                    | drivers         |
+| WAN Miniport (PPTP)                                                                                     | drivers         |
+| WAN Miniport (L2TP)                                                                                     | drivers         |
+| WAN Miniport (IKEv2)                                                                                    | drivers         |
+| WAN Miniport (SSTP)                                                                                     | drivers         |
+| Generic software device                                                                                 | drivers         |
+| Local Print Queue                                                                                       | drivers         |
+| Local Print Queue                                                                                       | drivers         |
+| Local Print Queue                                                                                       | drivers         |
+| Local Print Queue                                                                                       | drivers         |
+| Local Print Queue                                                                                       | drivers         |
+| Generic software device                                                                                 | drivers         |
+| Generic software device                                                                                 | drivers         |
+| Generic software device                                                                                 | drivers         |
+| Remote Desktop Device Redirector Bus                                                                    | drivers         |
+| System Interface Foundation V2 Device                                                                   | drivers         |
+| Plug and Play Software Device Enumerator                                                                | drivers         |
+| Microsoft System Management BIOS Driver                                                                 | drivers         |
+| NDIS Virtual Network Adapter Enumerator                                                                 | drivers         |
+| Microsoft Basic Render Driver                                                                           | drivers         |
+| Device Firmware                                                                                         | drivers         |
+| System Firmware                                                                                         | drivers         |
+| Device Firmware                                                                                         | drivers         |
+| Microsoft UEFI-Compliant System                                                                         | drivers         |
+| UCM-UCSI ACPI Device                                                                                    | drivers         |
+| Motherboard resources                                                                                   | drivers         |
+| Intel(R) Dynamic Platform and Thermal Framework Manager                                                 | drivers         |
+| Trusted Platform Module 2.0                                                                             | drivers         |
+| Intel(R) Power Engine Plug-in                                                                           | drivers         |
+| ACPI Processor Aggregator                                                                               | drivers         |
+| Intel Processor                                                                                         | drivers         |
+| Intel Processor                                                                                         | drivers         |
+| Intel Processor                                                                                         | drivers         |
+| Intel Processor                                                                                         | drivers         |
+| Intel Processor                                                                                         | drivers         |
+| Intel Processor                                                                                         | drivers         |
+| Intel Processor                                                                                         | drivers         |
+| Intel Processor                                                                                         | drivers         |
+| Microsoft Windows Management Interface for ACPI                                                         | drivers         |
+| Intel(R) Software Guard Extensions Platform Software Component                                          | drivers         |
+| Intel(R) Software Guard Extensions Device                                                               | drivers         |
+| Microsoft Windows Management Interface for ACPI                                                         | drivers         |
+| ACPI Power Button                                                                                       | drivers         |
+| ACPI Lid                                                                                                | drivers         |
+| Microsoft AC Adapter                                                                                    | drivers         |
+| Motherboard resources                                                                                   | drivers         |
+| Intel(R) Serial IO GPIO Host Controller - INT344B                                                       | drivers         |
+| Motherboard resources                                                                                   | drivers         |
+| Motherboard resources                                                                                   | drivers         |
+| Motherboard resources                                                                                   | drivers         |
+| Mobile Intel(R) Processor Family I/O SMBUS - 9D23                                                       | drivers         |
+| Intel(R) Display Audio                                                                                  | drivers         |
+| Audio Endpoint                                                                                          | drivers         |
+| Audio Endpoint                                                                                          | drivers         |
+| Realtek High Definition Audio(SST)                                                                      | drivers         |
+| Intel(R) Smart Sound Technology (Intel(R) SST) OED                                                      | drivers         |
+| Intel(R) Smart Sound Technology (Intel(R) SST) Audio Controller                                         | drivers         |
+| Mobile Intel(R) Processor Family I/O PMC - 9D21                                                         | drivers         |
+| Standard PS/2 Keyboard                                                                                  | drivers         |
+| Motherboard resources                                                                                   | drivers         |
+| System timer                                                                                            | drivers         |
+| System CMOS/real time clock                                                                             | drivers         |
+| Motherboard resources                                                                                   | drivers         |
+| Programmable interrupt controller                                                                       | drivers         |
+| High precision event timer                                                                              | drivers         |
+| Legacy device                                                                                           | drivers         |
+| Lenovo ACPI-Compliant Virtual Power Controller                                                          | drivers         |
+| Microsoft ACPI-Compliant Control Method Battery                                                         | drivers         |
+| Microsoft ACPI-Compliant Embedded Controller                                                            | drivers         |
+| Mobile 7th/8th Generation Intel(R) Processor Family I/O LPC Controller (U with iHDCP2.2 Premium) - 9D4E | drivers         |
+| USB Root Hub (USB 3.0)                                                                                  | drivers         |
+| USB xHCI Compliant Host Controller                                                                      | drivers         |
+| PCI Express Downstream Switch Port                                                                      | drivers         |
+| PCI Express Downstream Switch Port                                                                      | drivers         |
+| PCI Express Downstream Switch Port                                                                      | drivers         |
+| PCI Express Upstream Switch Port                                                                        | drivers         |
+| Mobile Intel(R) Processor Family I/O PCI Express Root Port #9 - 9D18                                    | drivers         |
+| Disk drive                                                                                              | drivers         |
+| Standard NVM Express Controller                                                                         | drivers         |
+| Mobile Intel(R) Processor Family I/O PCI Express Root Port #5 - 9D14                                    | drivers         |
+| Microsoft Wi-Fi Direct Virtual Adapter                                                                  | drivers         |
+| Microsoft Wi-Fi Direct Virtual Adapter                                                                  | drivers         |
+| Intel(R) Dual Band Wireless-AC 8265                                                                     | drivers         |
+| Mobile Intel(R) Processor Family I/O PCI Express Root Port #4 - 9D13                                    | drivers         |
+| Generic software component                                                                              | drivers         |
+| Intel(R) iCLS Client                                                                                    | drivers         |
+| Intel(R) Dynamic Application Loader Host Interface                                                      | drivers         |
+| Intel(R) Management Engine Interface                                                                    | drivers         |
+| HID-compliant vendor-defined device                                                                     | drivers         |
+| Microsoft Input Configuration Device                                                                    | drivers         |
+| HID-compliant touch pad                                                                                 | drivers         |
+| HID-compliant mouse                                                                                     | drivers         |
+| I2C HID Device                                                                                          | drivers         |
+| Intel(R) Serial IO I2C Host Controller - 9D61                                                           | drivers         |
+| Intel(R) Serial IO I2C Host Controller - 9D60                                                           | drivers         |
+| Mobile Intel(R) Processor Family I/O Thermal subsystem - 9D31                                           | drivers         |
+| EasyCamera                                                                                              | drivers         |
+| USB Composite Device                                                                                    | drivers         |
+| USB Root Hub (USB 3.0)                                                                                  | drivers         |
+| USB xHCI Compliant Host Controller                                                                      | drivers         |
+| Intel(R) Xeon(R) E3 - 1200/1500 v5/6th Gen Intel(R) Core(TM) Gaussian Mixture Model - 1911              | drivers         |
+| Intel(R) Dynamic Platform and Thermal Framework Processor Participant                                   | drivers         |
+| Generic PnP Monitor                                                                                     | drivers         |
+| Intel(R) UHD Graphics 620                                                                               | drivers         |
+| Intel(R) Xeon(R) E3 - 1200 v6/7th Gen Intel(R) Core(TM) Host Bridge/DRAM Registers - 5914               | drivers         |
+| PCI Express Root Complex                                                                                | drivers         |
+| Microsoft ACPI-Compliant System                                                                         | drivers         |
+| ACPI x64-based PC                                                                                       | drivers         |
+| Charge Arbitration Driver                                                                               | drivers         |
+| UMBus Root Bus Enumerator                                                                               | drivers         |
+| Microsoft Kernel Debug Network Adapter                                                                  | drivers         |
+| Microsoft Storage Spaces Controller                                                                     | drivers         |
+| Microsoft Virtual Drive Enumerator                                                                      | drivers         |
+| Composite Bus Enumerator                                                                                | drivers         |
+| Microsoft Hyper-V Virtualization Infrastructure Driver                                                  | drivers         |
+| TAP-Windows Adapter V9                                                                                  | drivers         |
+| Microsoft Basic Display Driver                                                                          | drivers         |
+| Volume                                                                                                  | drivers         |
+| Generic volume shadow copy                                                                              | drivers         |
+| Generic volume shadow copy                                                                              | drivers         |
+| Volume                                                                                                  | drivers         |
+| Volume                                                                                                  | drivers         |
+| Volume                                                                                                  | drivers         |
+| Volume Manager                                                                                          | drivers         |
+|                                                                                                         | drivers         |
+|                                                                                                         | drivers         |
+|                                                                                                         | drivers         |
+|                                                                                                         | drivers         |
+|                                                                                                         | drivers         |
+| McAfee WebAdvisor                                                                                       | ie_extensions   |
+| McAfee WebAdvisor                                                                                       | ie_extensions   |
+| Microsoft Url Search Hook                                                                               | ie_extensions   |
+| Microsoft Url Search Hook                                                                               | ie_extensions   |
+| Microsoft Url Search Hook                                                                               | ie_extensions   |
+| App Explorer                                                                                            | scheduled_tasks |
+| GoogleUpdateTaskMachineCore                                                                             | scheduled_tasks |
+| GoogleUpdateTaskMachineUA                                                                               | scheduled_tasks |
+| LenovoUtility Startup                                                                                   | scheduled_tasks |
+| OneDrive Standalone Update Task v2                                                                      | scheduled_tasks |
+| OneDrive Standalone Update Task-S-1-5-21-156593601-3775145892-1680203970-1001                           | scheduled_tasks |
+| Opera scheduled Autoupdate 1551522312                                                                   | scheduled_tasks |
+| Quick Heal AntiMalware Scan                                                                             | scheduled_tasks |
+| Resume Quickup Download                                                                                 | scheduled_tasks |
+| User_Feed_Synchronization-{54776692-261B-428F-99EB-F60E52A562A5}                                        | scheduled_tasks |
+| User_Feed_Synchronization-{70807CA0-ED6C-4E1C-833C-125DA543DB76}                                        | scheduled_tasks |
+| User_Feed_Synchronization-{74FEB2B4-81F2-45DC-A977-6A00EA02AC84}                                        | scheduled_tasks |
+| User_Feed_Synchronization-{818D933D-07FA-4297-9D95-3829920CDECF}                                        | scheduled_tasks |
+| User_Feed_Synchronization-{844E1DB5-85D7-4977-BF59-FB725319F94A}                                        | scheduled_tasks |
+| User_Feed_Synchronization-{90F7F061-B49D-48FD-B35D-B23F67D834D9}                                        | scheduled_tasks |
+| User_Feed_Synchronization-{CE0C19DB-FBA5-4D60-95CC-606CBB838B6F}                                        | scheduled_tasks |
+| Start Thunderbolt application on login if service is up                                                 | scheduled_tasks |
+| Start Thunderbolt application on switch user if service is up                                           | scheduled_tasks |
+| Start Thunderbolt application when hardware is detected                                                 | scheduled_tasks |
+| Start Thunderbolt service on boot if driver is up                                                       | scheduled_tasks |
+| Start Thunderbolt service when hardware is detected                                                     | scheduled_tasks |
+| Lenovo iM Controller Monitor                                                                            | scheduled_tasks |
+| Lenovo iM Controller Scheduled Maintenance                                                              | scheduled_tasks |
+| XblGameSaveTask                                                                                         | scheduled_tasks |
+| ManifestUpdate                                                                                          | scheduled_tasks |
+| LenovoSystemUpdatePlugin_WeeklyTask                                                                     | scheduled_tasks |
+| 282251f3-441b-4138-a668-18c1e3921413                                                                    | scheduled_tasks |
+| 7711153d-80ec-4e58-9f12-b6c961591535                                                                    | scheduled_tasks |
+| bb1a81a0-d48d-4d05-933f-f23e248be5a4                                                                    | scheduled_tasks |
+| .NET Framework NGEN v4.0.30319                                                                          | scheduled_tasks |
+| .NET Framework NGEN v4.0.30319 64                                                                       | scheduled_tasks |
+| .NET Framework NGEN v4.0.30319 64 Critical                                                              | scheduled_tasks |
+| .NET Framework NGEN v4.0.30319 Critical                                                                 | scheduled_tasks |
+| AD RMS Rights Policy Template Management (Automated)                                                    | scheduled_tasks |
+| AD RMS Rights Policy Template Management (Manual)                                                       | scheduled_tasks |
+| EDP Policy Manager                                                                                      | scheduled_tasks |
+| PolicyConverter                                                                                         | scheduled_tasks |
+| VerifiedPublisherCertStoreCheck                                                                         | scheduled_tasks |
+| Microsoft Compatibility Appraiser                                                                       | scheduled_tasks |
+| ProgramDataUpdater                                                                                      | scheduled_tasks |
+| StartupAppTask                                                                                          | scheduled_tasks |
+| appuriverifierdaily                                                                                     | scheduled_tasks |
+| appuriverifierinstall                                                                                   | scheduled_tasks |
+| CleanupTemporaryState                                                                                   | scheduled_tasks |
+| DsSvcCleanup                                                                                            | scheduled_tasks |
+| Pre-staged app cleanup                                                                                  | scheduled_tasks |
+| Proxy                                                                                                   | scheduled_tasks |
+| BitLocker Encrypt All Drives                                                                            | scheduled_tasks |
+| BitLocker MDM policy Refresh                                                                            | scheduled_tasks |
+| UninstallDeviceTask                                                                                     | scheduled_tasks |
+| BgTaskRegistrationMaintenanceTask                                                                       | scheduled_tasks |
+| AikCertEnrollTask                                                                                       | scheduled_tasks |
+| CryptoPolicyTask                                                                                        | scheduled_tasks |
+| KeyPreGenTask                                                                                           | scheduled_tasks |
+| SystemTask                                                                                              | scheduled_tasks |
+| UserTask                                                                                                | scheduled_tasks |
+| UserTask-Roam                                                                                           | scheduled_tasks |
+| ProactiveScan                                                                                           | scheduled_tasks |
+| SyspartRepair                                                                                           | scheduled_tasks |
+| License Validation                                                                                      | scheduled_tasks |
+| CreateObjectTask                                                                                        | scheduled_tasks |
+| Consolidator                                                                                            | scheduled_tasks |
+| UsbCeip                                                                                                 | scheduled_tasks |
+| Data Integrity Scan                                                                                     | scheduled_tasks |
+| Data Integrity Scan for Crash Recovery                                                                  | scheduled_tasks |
+| ScheduledDefrag                                                                                         | scheduled_tasks |
+| Device                                                                                                  | scheduled_tasks |
+| Metadata Refresh                                                                                        | scheduled_tasks |
+| HandleCommand                                                                                           | scheduled_tasks |
+| HandleWnsCommand                                                                                        | scheduled_tasks |
+| IntegrityCheck                                                                                          | scheduled_tasks |
+| LocateCommandUserSession                                                                                | scheduled_tasks |
+| RegisterDeviceAccountChange                                                                             | scheduled_tasks |
+| RegisterDeviceLocationRightsChange                                                                      | scheduled_tasks |
+| RegisterDevicePeriodic24                                                                                | scheduled_tasks |
+| RegisterDevicePolicyChange                                                                              | scheduled_tasks |
+| RegisterDeviceProtectionStateChanged                                                                    | scheduled_tasks |
+| RegisterDeviceSettingChange                                                                             | scheduled_tasks |
+| RegisterDeviceWnsFallback                                                                               | scheduled_tasks |
+| RegisterUserDevice                                                                                      | scheduled_tasks |
+| RecommendedTroubleshootingScanner                                                                       | scheduled_tasks |
+| Scheduled                                                                                               | scheduled_tasks |
+| DirectXDatabaseUpdater                                                                                  | scheduled_tasks |
+| DXGIAdapterCache                                                                                        | scheduled_tasks |
+| SilentCleanup                                                                                           | scheduled_tasks |
+| Microsoft-Windows-DiskDiagnosticDataCollector                                                           | scheduled_tasks |
+| Microsoft-Windows-DiskDiagnosticResolver                                                                | scheduled_tasks |
+| Diagnostics                                                                                             | scheduled_tasks |
+| StorageSense                                                                                            | scheduled_tasks |
+| dusmtask                                                                                                | scheduled_tasks |
+| EDP App Launch Task                                                                                     | scheduled_tasks |
+| EDP Auth Task                                                                                           | scheduled_tasks |
+| EDP Inaccessible Credentials Task                                                                       | scheduled_tasks |
+| StorageCardEncryption Task                                                                              | scheduled_tasks |
+| MDMMaintenenceTask                                                                                      | scheduled_tasks |
+| ExploitGuard MDM policy Refresh                                                                         | scheduled_tasks |
+| File History (maintenance mode)                                                                         | scheduled_tasks |
+| FODCleanupTask                                                                                          | scheduled_tasks |
+| ScanForUpdates                                                                                          | scheduled_tasks |
+| ScanForUpdatesAsUser                                                                                    | scheduled_tasks |
+| SmartRetry                                                                                              | scheduled_tasks |
+| WakeUpAndContinueUpdates                                                                                | scheduled_tasks |
+| WakeUpAndScanForUpdates                                                                                 | scheduled_tasks |
+| Installation                                                                                            | scheduled_tasks |
+| ReconcileLanguageResources                                                                              | scheduled_tasks |
+| Uninstallation                                                                                          | scheduled_tasks |
+| TempSignedLicenseExchange                                                                               | scheduled_tasks |
+| Notifications                                                                                           | scheduled_tasks |
+| WindowsActionDialog                                                                                     | scheduled_tasks |
+| WinSAT                                                                                                  | scheduled_tasks |
+| MapsToastTask                                                                                           | scheduled_tasks |
+| MapsUpdateTask                                                                                          | scheduled_tasks |
+| ProcessMemoryDiagnosticEvents                                                                           | scheduled_tasks |
+| RunFullMemoryDiagnostic                                                                                 | scheduled_tasks |
+| MNO Metadata Parser                                                                                     | scheduled_tasks |
+| LPRemove                                                                                                | scheduled_tasks |
+| SystemSoundsService                                                                                     | scheduled_tasks |
+| GatherNetworkInfo                                                                                       | scheduled_tasks |
+| WiFiTask                                                                                                | scheduled_tasks |
+| Secure-Boot-Update                                                                                      | scheduled_tasks |
+| Sqm-Tasks                                                                                               | scheduled_tasks |
+| Device Install Group Policy                                                                             | scheduled_tasks |
+| Device Install Reboot Required                                                                          | scheduled_tasks |
+| Sysprep Generalize Drivers                                                                              | scheduled_tasks |
+| AnalyzeSystem                                                                                           | scheduled_tasks |
+| EduPrintProv                                                                                            | scheduled_tasks |
+| LoginCheck                                                                                              | scheduled_tasks |
+| Registration                                                                                            | scheduled_tasks |
+| MobilityManager                                                                                         | scheduled_tasks |
+| VerifyWinRE                                                                                             | scheduled_tasks |
+| RegIdleBackup                                                                                           | scheduled_tasks |
+| RemoteAssistanceTask                                                                                    | scheduled_tasks |
+| StartComponentCleanup                                                                                   | scheduled_tasks |
+| BackgroundUploadTask                                                                                    | scheduled_tasks |
+| NetworkStateChangeTask                                                                                  | scheduled_tasks |
+| Account Cleanup                                                                                         | scheduled_tasks |
+| CreateObjectTask                                                                                        | scheduled_tasks |
+| FamilySafetyMonitor                                                                                     | scheduled_tasks |
+| FamilySafetyMonitorToastTask                                                                            | scheduled_tasks |
+| FamilySafetyRefreshTask                                                                                 | scheduled_tasks |
+| IndexerAutomaticMaintenance                                                                             | scheduled_tasks |
+| SvcRestartTask                                                                                          | scheduled_tasks |
+| SvcRestartTaskLogon                                                                                     | scheduled_tasks |
+| SvcRestartTaskNetwork                                                                                   | scheduled_tasks |
+| SpaceAgentTask                                                                                          | scheduled_tasks |
+| SpaceManagerTask                                                                                        | scheduled_tasks |
+| HeadsetButtonPress                                                                                      | scheduled_tasks |
+| SpeechModelDownloadTask                                                                                 | scheduled_tasks |
+| MaintenanceTasks                                                                                        | scheduled_tasks |
+| Storage Tiers Management Initialization                                                                 | scheduled_tasks |
+| Storage Tiers Optimization                                                                              | scheduled_tasks |
+| EnableLicenseAcquisition                                                                                | scheduled_tasks |
+| LicenseAcquisition                                                                                      | scheduled_tasks |
+| HybridDriveCachePrepopulate                                                                             | scheduled_tasks |
+| HybridDriveCacheRebalance                                                                               | scheduled_tasks |
+| ResPriStaticDbSync                                                                                      | scheduled_tasks |
+| WsSwapAssessmentTask                                                                                    | scheduled_tasks |
+| SR                                                                                                      | scheduled_tasks |
+| Interactive                                                                                             | scheduled_tasks |
+| MsCtfMonitor                                                                                            | scheduled_tasks |
+| ForceSynchronizeTime                                                                                    | scheduled_tasks |
+| SynchronizeTime                                                                                         | scheduled_tasks |
+| SynchronizeTimeZone                                                                                     | scheduled_tasks |
+| Tpm-HASCertRetr                                                                                         | scheduled_tasks |
+| Tpm-Maintenance                                                                                         | scheduled_tasks |
+| RunUpdateNotificationMgr                                                                                | scheduled_tasks |
+| UpdateAssistant                                                                                         | scheduled_tasks |
+| UpdateAssistantAllUsersRun                                                                              | scheduled_tasks |
+| UpdateAssistantCalendarRun                                                                              | scheduled_tasks |
+| UpdateAssistantWakeupRun                                                                                | scheduled_tasks |
+| Backup Scan                                                                                             | scheduled_tasks |
+| Maintenance Install                                                                                     | scheduled_tasks |
+| MusUx_UpdateInterval                                                                                    | scheduled_tasks |
+| Reboot                                                                                                  | scheduled_tasks |
+| Reboot_AC                                                                                               | scheduled_tasks |
+| Reboot_Battery                                                                                          | scheduled_tasks |
+| Schedule Scan                                                                                           | scheduled_tasks |
+| Schedule Scan Static Task                                                                               | scheduled_tasks |
+| Universal Orchestrator Start                                                                            | scheduled_tasks |
+| UpdateModelTask                                                                                         | scheduled_tasks |
+| USO_Broker_Display                                                                                      | scheduled_tasks |
+| USO_UxBroker                                                                                            | scheduled_tasks |
+| UPnPHostConfig                                                                                          | scheduled_tasks |
+| Usb-Notifications                                                                                       | scheduled_tasks |
+| HiveUploadTask                                                                                          | scheduled_tasks |
+| PerformRemediation                                                                                      | scheduled_tasks |
+| WiFiTask                                                                                                | scheduled_tasks |
+| ResolutionHost                                                                                          | scheduled_tasks |
+| QueueReporting                                                                                          | scheduled_tasks |
+| BfeOnServiceStartTypeChange                                                                             | scheduled_tasks |
+| UpdateLibrary                                                                                           | scheduled_tasks |
+| Calibration Loader                                                                                      | scheduled_tasks |
+| Scheduled Start                                                                                         | scheduled_tasks |
+| sihpostreboot                                                                                           | scheduled_tasks |
+| CacheTask                                                                                               | scheduled_tasks |
+| CDSSync                                                                                                 | scheduled_tasks |
+| WIM-Hash-Management                                                                                     | scheduled_tasks |
+| WIM-Hash-Validation                                                                                     | scheduled_tasks |
+| Work Folders Logon Synchronization                                                                      | scheduled_tasks |
+| Work Folders Maintenance Work                                                                           | scheduled_tasks |
+| Automatic-Device-Join                                                                                   | scheduled_tasks |
+| Device-Sync                                                                                             | scheduled_tasks |
+| Recovery-Check                                                                                          | scheduled_tasks |
+| NotificationTask                                                                                        | scheduled_tasks |
+| DmClient                                                                                                | scheduled_tasks |
+| DmClientOnScenarioDownload                                                                              | scheduled_tasks |
+| ReconcileFeatures                                                                                       | scheduled_tasks |
+| RefreshCache                                                                                            | scheduled_tasks |
+| Cellular                                                                                                | scheduled_tasks |
+| Logon                                                                                                   | scheduled_tasks |
+| AESMService                                                                                             | services        |
+| AJRouter                                                                                                | services        |
+| ALG                                                                                                     | services        |
+| AppIDSvc                                                                                                | services        |
+| Appinfo                                                                                                 | services        |
+| AppReadiness                                                                                            | services        |
+| AppXSvc                                                                                                 | services        |
+| arwsrvc                                                                                                 | services        |
+| AudioEndpointBuilder                                                                                    | services        |
+| Audiosrv                                                                                                | services        |
+| autotimesvc                                                                                             | services        |
+| AxInstSV                                                                                                | services        |
+| BDESVC                                                                                                  | services        |
+| Behavior Detection System                                                                               | services        |
+| BFE                                                                                                     | services        |
+| BITS                                                                                                    | services        |
+| BrokerInfrastructure                                                                                    | services        |
+| BTAGService                                                                                             | services        |
+| BthAvctpSvc                                                                                             | services        |
+| bthserv                                                                                                 | services        |
+| camsvc                                                                                                  | services        |
+| CDPSvc                                                                                                  | services        |
+| CertPropSvc                                                                                             | services        |
+| ClipSVC                                                                                                 | services        |
+| COMSysApp                                                                                               | services        |
+| Core Mail Protection                                                                                    | services        |
+| Core Scanning Server                                                                                    | services        |
+| Core Scanning ServerEx                                                                                  | services        |
+| CoreMessagingRegistrar                                                                                  | services        |
+| cphs                                                                                                    | services        |
+| cplspcon                                                                                                | services        |
+| CryptSvc                                                                                                | services        |
+| DcomLaunch                                                                                              | services        |
+| defragsvc                                                                                               | services        |
+| DeviceAssociationService                                                                                | services        |
+| DeviceInstall                                                                                           | services        |
+| DevQueryBroker                                                                                          | services        |
+| Dhcp                                                                                                    | services        |
+| diagnosticshub.standardcollector.service                                                                | services        |
+| diagsvc                                                                                                 | services        |
+| DiagTrack                                                                                               | services        |
+| DispBrokerDesktopSvc                                                                                    | services        |
+| DisplayEnhancementService                                                                               | services        |
+| DmEnrollmentSvc                                                                                         | services        |
+| dmwappushservice                                                                                        | services        |
+| Dnscache                                                                                                | services        |
+| Dolby DAX API Service                                                                                   | services        |
+| DoSvc                                                                                                   | services        |
+| dot3svc                                                                                                 | services        |
+| DPS                                                                                                     | services        |
+| DsmSvc                                                                                                  | services        |
+| DsSvc                                                                                                   | services        |
+| DusmSvc                                                                                                 | services        |
+| Eaphost                                                                                                 | services        |
+| EFS                                                                                                     | services        |
+| embeddedmode                                                                                            | services        |
+| EntAppSvc                                                                                               | services        |
+| esifsvc                                                                                                 | services        |
+| EventLog                                                                                                | services        |
+| EventSystem                                                                                             | services        |
+| Fax                                                                                                     | services        |
+| fdPHost                                                                                                 | services        |
+| FDResPub                                                                                                | services        |
+| fhsvc                                                                                                   | services        |
+| FontCache                                                                                               | services        |
+| FrameServer                                                                                             | services        |
+| GoogleChromeElevationService                                                                            | services        |
+| gpsvc                                                                                                   | services        |
+| GraphicsPerfSvc                                                                                         | services        |
+| gupdate                                                                                                 | services        |
+| gupdatem                                                                                                | services        |
+| hidserv                                                                                                 | services        |
+| HvHost                                                                                                  | services        |
+| ibtsiva                                                                                                 | services        |
+| icssvc                                                                                                  | services        |
+| igfxCUIService2.0.0.0                                                                                   | services        |
+| IKEEXT                                                                                                  | services        |
+| ImControllerService                                                                                     | services        |
+| InstallService                                                                                          | services        |
+| Intel(R) Capability Licensing Service TCP IP Interface                                                  | services        |
+| Intel(R) TPM Provisioning Service                                                                       | services        |
+| IntelAudioService                                                                                       | services        |
+| iphlpsvc                                                                                                | services        |
+| IpxlatCfgSvc                                                                                            | services        |
+| jhi_service                                                                                             | services        |
+| KeyIso                                                                                                  | services        |
+| KtmRm                                                                                                   | services        |
+| LanmanServer                                                                                            | services        |
+| LanmanWorkstation                                                                                       | services        |
+| lfsvc                                                                                                   | services        |
+| LicenseManager                                                                                          | services        |
+| lltdsvc                                                                                                 | services        |
+| lmhosts                                                                                                 | services        |
+| LMS                                                                                                     | services        |
+| LSM                                                                                                     | services        |
+| LxpSvc                                                                                                  | services        |
+| LxssManager                                                                                             | services        |
+| MapsBroker                                                                                              | services        |
+| McAfee WebAdvisor                                                                                       | services        |
+| McSecDashboardService                                                                                   | services        |
+| MozillaMaintenance                                                                                      | services        |
+| mpssvc                                                                                                  | services        |
+| MSDTC                                                                                                   | services        |
+| MSiSCSI                                                                                                 | services        |
+| msiserver                                                                                               | services        |
+| MySQL80                                                                                                 | services        |
+| NaturalAuthentication                                                                                   | services        |
+| NcaSvc                                                                                                  | services        |
+| NcbService                                                                                              | services        |
+| NcdAutoSetup                                                                                            | services        |
+| Netlogon                                                                                                | services        |
+| Netman                                                                                                  | services        |
+| netprofm                                                                                                | services        |
+| NetSetupSvc                                                                                             | services        |
+| NetTcpPortSharing                                                                                       | services        |
+| NgcCtnrSvc                                                                                              | services        |
+| NgcSvc                                                                                                  | services        |
+| NlaSvc                                                                                                  | services        |
+| nsi                                                                                                     | services        |
+| Online Protection System                                                                                | services        |
+| OpenVPNService                                                                                          | services        |
+| OpenVPNServiceInteractive                                                                               | services        |
+| OpenVPNServiceLegacy                                                                                    | services        |
+| osqueryd                                                                                                | services        |
+| p2pimsvc                                                                                                | services        |
+| p2psvc                                                                                                  | services        |
+| PcaSvc                                                                                                  | services        |
+| perceptionsimulation                                                                                    | services        |
+| PerfHost                                                                                                | services        |
+| PhoneSvc                                                                                                | services        |
+| pla                                                                                                     | services        |
+| PlugPlay                                                                                                | services        |
+| PNRPAutoReg                                                                                             | services        |
+| PNRPsvc                                                                                                 | services        |
+| PolicyAgent                                                                                             | services        |
+| Power                                                                                                   | services        |
+| PrintNotify                                                                                             | services        |
+| ProfSvc                                                                                                 | services        |
+| PushToInstall                                                                                           | services        |
+| Quick Update Service                                                                                    | services        |
+| QWAVE                                                                                                   | services        |
+| RasAuto                                                                                                 | services        |
+| RasMan                                                                                                  | services        |
+| RemoteAccess                                                                                            | services        |
+| RemoteRegistry                                                                                          | services        |
+| RepairService                                                                                           | services        |
+| RetailDemo                                                                                              | services        |
+| RmSvc                                                                                                   | services        |
+| RpcEptMapper                                                                                            | services        |
+| RpcLocator                                                                                              | services        |
+| RpcSs                                                                                                   | services        |
+| RtkAudioService                                                                                         | services        |
+| SamSs                                                                                                   | services        |
+| ScanWscS                                                                                                | services        |
+| SCardSvr                                                                                                | services        |
+| ScDeviceEnum                                                                                            | services        |
+| Schedule                                                                                                | services        |
+| SCPolicySvc                                                                                             | services        |
+| ScSecSvc                                                                                                | services        |
+| SDRSVC                                                                                                  | services        |
+| seclogon                                                                                                | services        |
+| SecurityHealthService                                                                                   | services        |
+| SEMgrSvc                                                                                                | services        |
+| SENS                                                                                                    | services        |
+| SensorDataService                                                                                       | services        |
+| SensorService                                                                                           | services        |
+| SensrSvc                                                                                                | services        |
+| SessionEnv                                                                                              | services        |
+| SgrmBroker                                                                                              | services        |
+| SharedAccess                                                                                            | services        |
+| SharedRealitySvc                                                                                        | services        |
+| ShellHWDetection                                                                                        | services        |
+| shpamsvc                                                                                                | services        |
+| smphost                                                                                                 | services        |
+| SmsRouter                                                                                               | services        |
+| SNMPTRAP                                                                                                | services        |
+| spectrum                                                                                                | services        |
+| Spooler                                                                                                 | services        |
+| sppsvc                                                                                                  | services        |
+| SSDPSRV                                                                                                 | services        |
+| ssh-agent                                                                                               | services        |
+| SstpSvc                                                                                                 | services        |
+| StateRepository                                                                                         | services        |
+| stisvc                                                                                                  | services        |
+| StorSvc                                                                                                 | services        |
+| svsvc                                                                                                   | services        |
+| swprv                                                                                                   | services        |
+| SysMain                                                                                                 | services        |
+| SystemEventsBroker                                                                                      | services        |
+| TabletInputService                                                                                      | services        |
+| TapiSrv                                                                                                 | services        |
+| TermService                                                                                             | services        |
+| Themes                                                                                                  | services        |
+| ThunderboltService                                                                                      | services        |
+| TieringEngineService                                                                                    | services        |
+| TimeBrokerSvc                                                                                           | services        |
+| TokenBroker                                                                                             | services        |
+| TrkWks                                                                                                  | services        |
+| TroubleshootingSvc                                                                                      | services        |
+| TrustedInstaller                                                                                        | services        |
+| tzautoupdate                                                                                            | services        |
+| UmRdpService                                                                                            | services        |
+| upnphost                                                                                                | services        |
+| UserManager                                                                                             | services        |
+| UsoSvc                                                                                                  | services        |
+| VacSvc                                                                                                  | services        |
+| VaultSvc                                                                                                | services        |
+| VBoxSDS                                                                                                 | services        |
+| vds                                                                                                     | services        |
+| vmicguestinterface                                                                                      | services        |
+| vmicheartbeat                                                                                           | services        |
+| vmickvpexchange                                                                                         | services        |
+| vmicrdv                                                                                                 | services        |
+| vmicshutdown                                                                                            | services        |
+| vmictimesync                                                                                            | services        |
+| vmicvmsession                                                                                           | services        |
+| vmicvss                                                                                                 | services        |
+| VSS                                                                                                     | services        |
+| W32Time                                                                                                 | services        |
+| WaaSMedicSvc                                                                                            | services        |
+| WalletService                                                                                           | services        |
+| wampapache64                                                                                            | services        |
+| wampmariadb64                                                                                           | services        |
+| wampmysqld64                                                                                            | services        |
+| WarpJITSvc                                                                                              | services        |
+| wbengine                                                                                                | services        |
+| WbioSrvc                                                                                                | services        |
+| Wcmsvc                                                                                                  | services        |
+| wcncsvc                                                                                                 | services        |
+| WdiServiceHost                                                                                          | services        |
+| WdiSystemHost                                                                                           | services        |
+| WdNisSvc                                                                                                | services        |
+| WebClient                                                                                               | services        |
+| Wecsvc                                                                                                  | services        |
+| WEPHOSTSVC                                                                                              | services        |
+| wercplsupport                                                                                           | services        |
+| WerSvc                                                                                                  | services        |
+| WFDSConMgrSvc                                                                                           | services        |
+| WiaRpc                                                                                                  | services        |
+| WinDefend                                                                                               | services        |
+| WinHttpAutoProxySvc                                                                                     | services        |
+| Winmgmt                                                                                                 | services        |
+| WinRM                                                                                                   | services        |
+| wisvc                                                                                                   | services        |
+| WlanSvc                                                                                                 | services        |
+| wlidsvc                                                                                                 | services        |
+| wlpasvc                                                                                                 | services        |
+| WManSvc                                                                                                 | services        |
+| wmiApSrv                                                                                                | services        |
+| WMPNetworkSvc                                                                                           | services        |
+| workfolderssvc                                                                                          | services        |
+| WpcMonSvc                                                                                               | services        |
+| WPDBusEnum                                                                                              | services        |
+| WpnService                                                                                              | services        |
+| wscsvc                                                                                                  | services        |
+| WSearch                                                                                                 | services        |
+| wuauserv                                                                                                | services        |
+| WwanSvc                                                                                                 | services        |
+| XblAuthManager                                                                                          | services        |
+| XblGameSave                                                                                             | services        |
+| XboxGipSvc                                                                                              | services        |
+| XboxNetApiSvc                                                                                           | services        |
+| AarSvc_bc70134                                                                                          | services        |
+| BcastDVRUserService_bc70134                                                                             | services        |
+| BluetoothUserService_bc70134                                                                            | services        |
+| CaptureService_bc70134                                                                                  | services        |
+| cbdhsvc_bc70134                                                                                         | services        |
+| CDPUserSvc_bc70134                                                                                      | services        |
+| ConsentUxUserSvc_bc70134                                                                                | services        |
+| CredentialEnrollmentManagerUserSvc_bc70134                                                              | services        |
+| DeviceAssociationBrokerSvc_bc70134                                                                      | services        |
+| DevicePickerUserSvc_bc70134                                                                             | services        |
+| DevicesFlowUserSvc_bc70134                                                                              | services        |
+| LxssManagerUser_bc70134                                                                                 | services        |
+| MessagingService_bc70134                                                                                | services        |
+| OneSyncSvc_bc70134                                                                                      | services        |
+| PimIndexMaintenanceSvc_bc70134                                                                          | services        |
+| PrintWorkflowUserSvc_bc70134                                                                            | services        |
+| UnistoreSvc_bc70134                                                                                     | services        |
+| UserDataSvc_bc70134                                                                                     | services        |
+| WpnUserService_bc70134                                                                                  | services        |
+| APP                                                                                                     | startup_items   |
+| Quick Heal Core UI                                                                                      | startup_items   |
+| RTHDVCPL                                                                                                | startup_items   |
+| RtHDVBg_Dolby                                                                                           | startup_items   |
+| RtHDVBg_LENOVO_DOLBYDRAGON                                                                              | startup_items   |
+| SecurityHealth                                                                                          | startup_items   |
+| SunJavaUpdateSched                                                                                      | startup_items   |
+| desktop.ini                                                                                             | startup_items   |
+| desktop.ini                                                                                             | startup_items   |
+| desktop.ini                                                                                             | startup_items   |
++---------------------------------------------------------------------------------------------------------+-----------------+
+select device_id,encryption_method,protection_status from bitlocker_info;
++---------------------------------------------------+-------------------+-------------------+
+| device_id                                         | encryption_method | protection_status |
++---------------------------------------------------+-------------------+-------------------+
+| \\?\Volume{3b544098-b144-43a4-af7e-8c1a4d136c08}\ | XTS_AES_128       | 1                 |
++---------------------------------------------------+-------------------+-------------------+
+select name,version from chrome_extensions;
+W1110 21:46:46.535121 17868 virtual_table.cpp:987] The chrome_extensions table returns data based on the current user by default, consider JOINing against the users table
+W1110 21:46:46.592254 17868 virtual_table.cpp:1002] Please see the table documentation: https://osquery.io/schema/#chrome_extensions
++----------------------+----------+
+| name                 | version  |
++----------------------+----------+
+| Web Scraper          | 0.4.2    |
+| Grammarly for Chrome | 14.934.0 |
++----------------------+----------+
+select model,manufacturer,number_of_cores from cpu_info;
++------------------------------------------+--------------+-----------------+
+| model                                    | manufacturer | number_of_cores |
++------------------------------------------+--------------+-----------------+
+| Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz | GenuineIntel | 4               |
++------------------------------------------+--------------+-----------------+
+select partitions,manufacturer,hardware_model,serial from disk_info;
++------------+------------------------+----------------------------+----------------------+
+| partitions | manufacturer           | hardware_model             | serial               |
++------------+------------------------+----------------------------+----------------------+
+| 3          | (Standard disk drives) | SAMSUNG MZVLW512HMJP-000L2 | 0025_38B1_81BE_61FA. |
++------------+------------------------+----------------------------+----------------------+
+select name from etc_services;
++-------------+
+| name        |
++-------------+
+| echo        |
+| echo        |
+| discard     |
+| discard     |
+| systat      |
+| systat      |
+| daytime     |
+| daytime     |
+| qotd        |
+| qotd        |
+| chargen     |
+| chargen     |
+| ftp-data    |
+| ftp         |
+| ssh         |
+| telnet      |
+| smtp        |
+| time        |
+| time        |
+| rlp         |
+| nameserver  |
+| nameserver  |
+| nicname     |
+| domain      |
+| domain      |
+| bootps      |
+| bootpc      |
+| tftp        |
+| gopher      |
+| finger      |
+| http        |
+| hosts2-ns   |
+| hosts2-ns   |
+| kerberos    |
+| kerberos    |
+| hostname    |
+| iso-tsap    |
+| rtelnet     |
+| pop2        |
+| pop3        |
+| sunrpc      |
+| sunrpc      |
+| auth        |
+| uucp-path   |
+| sqlserv     |
+| nntp        |
+| ntp         |
+| epmap       |
+| epmap       |
+| netbios-ns  |
+| netbios-ns  |
+| netbios-dgm |
+| netbios-ssn |
+| imap        |
+| sql-net     |
+| sqlsrv      |
+| pcmail-srv  |
+| snmp        |
+| snmptrap    |
+| print-srv   |
+| bgp         |
++-------------+
+select name,version from ie_extensions;
+I1110 21:46:49.314394 17868 registry.cpp:568] Failed to expand globs: Failed to open registry handle
+I1110 21:46:49.323372 17868 registry.cpp:568] Failed to expand globs: Failed to open registry handle
+I1110 21:46:49.345531 17868 registry.cpp:568] Failed to expand globs: Failed to open registry handle
+W1110 21:46:49.371938 17868 ie_extensions.cpp:62] Failed to get class executables: ClsId not found in registry
+W1110 21:46:49.413679 17868 ie_extensions.cpp:62] Failed to get class executables: ClsId not found in registry
++---------------------------+----------------+
+| name                      | version        |
++---------------------------+----------------+
+| McAfee WebAdvisor         | 4.1.0.0        |
+| McAfee WebAdvisor         | 4.1.0.0        |
+| Microsoft Url Search Hook | 11.0.18362.418 |
+| Microsoft Url Search Hook | 11.0.18362.418 |
+| Microsoft Url Search Hook | 11.0.18362.418 |
++---------------------------+----------------+
+select interface,address from interface_addresses;
++-----------+---------------------------+
+| interface | address                   |
++-----------+---------------------------+
+| 13        | fe80::240c:35be:d632:a985 |
+| 13        | 169.254.169.133           |
+| 12        | fe80::e460:5857:369e:b72b |
+| 12        | 169.254.183.43            |
+| 15        | fe80::c1ff:5995:33ae:94fe |
+| 15        | 169.254.148.254           |
+| 8         | fe80::4510:202:bc0a:15ff  |
+| 8         | 192.168.1.6               |
+| 1         | ::1                       |
+| 1         | 127.0.0.1                 |
++-----------+---------------------------+
+select interface,mac,manufacturer from interface_details;
+I1110 21:46:49.908409 17868 interfaces.cpp:99] Failed to retrieve network statistics for interface 13
+I1110 21:46:50.041600 17868 interfaces.cpp:99] Failed to retrieve network statistics for interface 12
+I1110 21:46:50.148847 17868 interfaces.cpp:99] Failed to retrieve network statistics for interface 15
+I1110 21:46:50.255427 17868 interfaces.cpp:99] Failed to retrieve network statistics for interface 8
+I1110 21:46:50.370538 17868 interfaces.cpp:99] Failed to retrieve network statistics for interface 1
+I1110 21:46:50.458287 17868 interfaces.cpp:127] Failed to retrieve physical state for interface 1
+I1110 21:46:50.479236 17868 interfaces.cpp:154] Failed to retrieve DHCP and DNS information for interface 1
++-----------+-------------------+-------------------------+
+| interface | mac               | manufacturer            |
++-----------+-------------------+-------------------------+
+| 13        | f4:d1:08:50:f6:96 | Microsoft               |
+| 12        | f6:d1:08:50:f6:95 | Microsoft               |
+| 15        | 00:ff:84:a7:07:1f | TAP-Windows Provider V9 |
+| 8         | f4:d1:08:50:f6:95 | Intel Corporation       |
+| 1         |                   |                         |
++-----------+-------------------+-------------------------+
+select version,device from kernel_info;
++----------------+---------------------------------------------------+
+| version        | device                                            |
++----------------+---------------------------------------------------+
+| 10.0.18362.418 | \\?\Volume{3b544098-b144-43a4-af7e-8c1a4d136c08}\ |
++----------------+---------------------------------------------------+
+select port,protocol from listening_ports;
++-------+----------+
+| port  | protocol |
++-------+----------+
+| 135   | 6        |
+| 445   | 6        |
+| 3306  | 6        |
+| 5040  | 6        |
+| 7680  | 6        |
+| 33060 | 6        |
+| 49664 | 6        |
+| 49665 | 6        |
+| 49666 | 6        |
+| 49667 | 6        |
+| 49668 | 6        |
+| 49669 | 6        |
+| 17400 | 6        |
+| 55248 | 6        |
+| 139   | 6        |
+| 135   | 6        |
+| 445   | 6        |
+| 3306  | 6        |
+| 7680  | 6        |
+| 33060 | 6        |
+| 49664 | 6        |
+| 49665 | 6        |
+| 49666 | 6        |
+| 49667 | 6        |
+| 49668 | 6        |
+| 49669 | 6        |
+| 55238 | 6        |
+| 500   | 17       |
+| 4500  | 17       |
+| 5050  | 17       |
+| 5353  | 17       |
+| 5353  | 17       |
+| 5353  | 17       |
+| 5355  | 17       |
+| 53024 | 17       |
+| 55124 | 17       |
+| 58115 | 17       |
+| 1900  | 17       |
+| 49664 | 17       |
+| 58365 | 17       |
+| 137   | 17       |
+| 138   | 17       |
+| 1900  | 17       |
+| 58364 | 17       |
+| 500   | 17       |
+| 4500  | 17       |
+| 5353  | 17       |
+| 5353  | 17       |
+| 5355  | 17       |
+| 58115 | 17       |
+| 1900  | 17       |
+| 58363 | 17       |
+| 1900  | 17       |
+| 58362 | 17       |
++-------+----------+
+select user,type from logged_in_users;
++---------+--------------+
+| user    | type         |
++---------+--------------+
+|         | disconnected |
+|         | down         |
+| Anushka | active       |
++---------+--------------+
+select name,version,major,minor,patch,platform,platform_like,install_date from os_version;
++---------------------------+------------+-------+-------+-------+----------+---------------+---------------------------+
+| name                      | version    | major | minor | patch | platform | platform_like | install_date              |
++---------------------------+------------+-------+-------+-------+----------+---------------+---------------------------+
+| Microsoft Windows 10 Home | 10.0.18362 | 10    | 0     |       | windows  | windows       | 20191021042045.000000+330 |
++---------------------------+------------+-------+-------+-------+----------+---------------+---------------------------+
+select csname,installed_on from patches;
++-----------------+--------------+
+| csname          | installed_on |
++-----------------+--------------+
+| LAPTOP-C2C4TVQO | 10/23/2019   |
+| LAPTOP-C2C4TVQO | 10/21/2019   |
+| LAPTOP-C2C4TVQO | 10/21/2019   |
+| LAPTOP-C2C4TVQO | 10/21/2019   |
++-----------------+--------------+
+select vendor,version,date from platform_info;
++--------+----------+------------+
+| vendor | version  | date       |
++--------+----------+------------+
+| LENOVO | 6MCN27WW | 2018-05-02 |
++--------+----------+------------+
+select processes from processes;
+Error: no such column: processes
+select name,service_type,status from services;
++--------------------------------------------------------+----------------------------+---------+
+| name                                                   | service_type               | status  |
++--------------------------------------------------------+----------------------------+---------+
+| AESMService                                            | OWN_PROCESS                | RUNNING |
+| AJRouter                                               | SHARE_PROCESS              | STOPPED |
+| ALG                                                    | OWN_PROCESS                | STOPPED |
+| AppIDSvc                                               | SHARE_PROCESS              | STOPPED |
+| Appinfo                                                | SHARE_PROCESS              | RUNNING |
+| AppReadiness                                           | SHARE_PROCESS              | STOPPED |
+| AppXSvc                                                | SHARE_PROCESS              | STOPPED |
+| arwsrvc                                                | OWN_PROCESS                | RUNNING |
+| AudioEndpointBuilder                                   | SHARE_PROCESS              | RUNNING |
+| Audiosrv                                               | OWN_PROCESS                | RUNNING |
+| autotimesvc                                            | OWN_PROCESS                | STOPPED |
+| AxInstSV                                               | SHARE_PROCESS              | STOPPED |
+| BDESVC                                                 | SHARE_PROCESS              | RUNNING |
+| Behavior Detection System                              | OWN_PROCESS                | RUNNING |
+| BFE                                                    | SHARE_PROCESS              | RUNNING |
+| BITS                                                   | SHARE_PROCESS              | RUNNING |
+| BrokerInfrastructure                                   | SHARE_PROCESS              | RUNNING |
+| BTAGService                                            | SHARE_PROCESS              | STOPPED |
+| BthAvctpSvc                                            | SHARE_PROCESS              | RUNNING |
+| bthserv                                                | SHARE_PROCESS              | STOPPED |
+| camsvc                                                 | SHARE_PROCESS              | RUNNING |
+| CDPSvc                                                 | SHARE_PROCESS              | RUNNING |
+| CertPropSvc                                            | SHARE_PROCESS              | STOPPED |
+| ClipSVC                                                | SHARE_PROCESS              | STOPPED |
+| COMSysApp                                              | OWN_PROCESS                | STOPPED |
+| Core Mail Protection                                   | OWN_PROCESS                | RUNNING |
+| Core Scanning Server                                   | OWN_PROCESS                | RUNNING |
+| Core Scanning ServerEx                                 | OWN_PROCESS                | STOPPED |
+| CoreMessagingRegistrar                                 | SHARE_PROCESS              | RUNNING |
+| cphs                                                   | OWN_PROCESS                | RUNNING |
+| cplspcon                                               | OWN_PROCESS                | RUNNING |
+| CryptSvc                                               | SHARE_PROCESS              | RUNNING |
+| DcomLaunch                                             | SHARE_PROCESS              | RUNNING |
+| defragsvc                                              | OWN_PROCESS                | STOPPED |
+| DeviceAssociationService                               | SHARE_PROCESS              | RUNNING |
+| DeviceInstall                                          | SHARE_PROCESS              | STOPPED |
+| DevQueryBroker                                         | SHARE_PROCESS              | STOPPED |
+| Dhcp                                                   | SHARE_PROCESS              | RUNNING |
+| diagnosticshub.standardcollector.service               | OWN_PROCESS                | STOPPED |
+| diagsvc                                                | SHARE_PROCESS              | STOPPED |
+| DiagTrack                                              | OWN_PROCESS                | RUNNING |
+| DispBrokerDesktopSvc                                   | SHARE_PROCESS              | RUNNING |
+| DisplayEnhancementService                              | SHARE_PROCESS              | RUNNING |
+| DmEnrollmentSvc                                        | OWN_PROCESS                | STOPPED |
+| dmwappushservice                                       | SHARE_PROCESS              | STOPPED |
+| Dnscache                                               | SHARE_PROCESS              | RUNNING |
+| Dolby DAX API Service                                  | OWN_PROCESS                | RUNNING |
+| DoSvc                                                  | SHARE_PROCESS              | RUNNING |
+| dot3svc                                                | SHARE_PROCESS              | STOPPED |
+| DPS                                                    | SHARE_PROCESS              | RUNNING |
+| DsmSvc                                                 | SHARE_PROCESS              | STOPPED |
+| DsSvc                                                  | SHARE_PROCESS              | RUNNING |
+| DusmSvc                                                | OWN_PROCESS                | RUNNING |
+| Eaphost                                                | SHARE_PROCESS              | STOPPED |
+| EFS                                                    | SHARE_PROCESS              | STOPPED |
+| embeddedmode                                           | SHARE_PROCESS              | STOPPED |
+| EntAppSvc                                              | SHARE_PROCESS              | STOPPED |
+| esifsvc                                                | OWN_PROCESS                | RUNNING |
+| EventLog                                               | SHARE_PROCESS              | RUNNING |
+| EventSystem                                            | SHARE_PROCESS              | RUNNING |
+| Fax                                                    | OWN_PROCESS                | STOPPED |
+| fdPHost                                                | SHARE_PROCESS              | STOPPED |
+| FDResPub                                               | SHARE_PROCESS              | STOPPED |
+| fhsvc                                                  | SHARE_PROCESS              | STOPPED |
+| FontCache                                              | SHARE_PROCESS              | RUNNING |
+| FrameServer                                            | SHARE_PROCESS              | STOPPED |
+| GoogleChromeElevationService                           | OWN_PROCESS                | STOPPED |
+| gpsvc                                                  | SHARE_PROCESS              | STOPPED |
+| GraphicsPerfSvc                                        | SHARE_PROCESS              | STOPPED |
+| gupdate                                                | OWN_PROCESS                | STOPPED |
+| gupdatem                                               | OWN_PROCESS                | STOPPED |
+| hidserv                                                | SHARE_PROCESS              | STOPPED |
+| HvHost                                                 | SHARE_PROCESS              | STOPPED |
+| ibtsiva                                                | OWN_PROCESS                | RUNNING |
+| icssvc                                                 | SHARE_PROCESS              | STOPPED |
+| igfxCUIService2.0.0.0                                  | OWN_PROCESS                | RUNNING |
+| IKEEXT                                                 | SHARE_PROCESS              | RUNNING |
+| ImControllerService                                    | OWN_PROCESS                | RUNNING |
+| InstallService                                         | OWN_PROCESS                | RUNNING |
+| Intel(R) Capability Licensing Service TCP IP Interface | OWN_PROCESS                | RUNNING |
+| Intel(R) TPM Provisioning Service                      | OWN_PROCESS                | STOPPED |
+| IntelAudioService                                      | OWN_PROCESS                | STOPPED |
+| iphlpsvc                                               | SHARE_PROCESS              | RUNNING |
+| IpxlatCfgSvc                                           | SHARE_PROCESS              | STOPPED |
+| jhi_service                                            | OWN_PROCESS                | RUNNING |
+| KeyIso                                                 | SHARE_PROCESS              | RUNNING |
+| KtmRm                                                  | SHARE_PROCESS              | STOPPED |
+| LanmanServer                                           | SHARE_PROCESS              | RUNNING |
+| LanmanWorkstation                                      | SHARE_PROCESS              | RUNNING |
+| lfsvc                                                  | SHARE_PROCESS              | RUNNING |
+| LicenseManager                                         | SHARE_PROCESS              | RUNNING |
+| lltdsvc                                                | SHARE_PROCESS              | STOPPED |
+| lmhosts                                                | SHARE_PROCESS              | RUNNING |
+| LMS                                                    | OWN_PROCESS                | RUNNING |
+| LSM                                                    | SHARE_PROCESS              | RUNNING |
+| LxpSvc                                                 | SHARE_PROCESS              | STOPPED |
+| LxssManager                                            | SHARE_PROCESS              | STOPPED |
+| MapsBroker                                             | OWN_PROCESS                | STOPPED |
+| McAfee WebAdvisor                                      | OWN_PROCESS                | RUNNING |
+| McSecDashboardService                                  | OWN_PROCESS                | STOPPED |
+| MozillaMaintenance                                     | OWN_PROCESS                | STOPPED |
+| mpssvc                                                 | SHARE_PROCESS              | RUNNING |
+| MSDTC                                                  | OWN_PROCESS                | STOPPED |
+| MSiSCSI                                                | SHARE_PROCESS              | STOPPED |
+| msiserver                                              | OWN_PROCESS                | STOPPED |
+| MySQL80                                                | OWN_PROCESS                | RUNNING |
+| NaturalAuthentication                                  | SHARE_PROCESS              | STOPPED |
+| NcaSvc                                                 | SHARE_PROCESS              | STOPPED |
+| NcbService                                             | SHARE_PROCESS              | RUNNING |
+| NcdAutoSetup                                           | SHARE_PROCESS              | STOPPED |
+| Netlogon                                               | SHARE_PROCESS              | STOPPED |
+| Netman                                                 | SHARE_PROCESS              | STOPPED |
+| netprofm                                               | SHARE_PROCESS              | RUNNING |
+| NetSetupSvc                                            | SHARE_PROCESS              | STOPPED |
+| NetTcpPortSharing                                      | SHARE_PROCESS              | STOPPED |
+| NgcCtnrSvc                                             | SHARE_PROCESS              | RUNNING |
+| NgcSvc                                                 | SHARE_PROCESS              | RUNNING |
+| NlaSvc                                                 | SHARE_PROCESS              | RUNNING |
+| nsi                                                    | SHARE_PROCESS              | RUNNING |
+| Online Protection System                               | OWN_PROCESS                | RUNNING |
+| OpenVPNService                                         | OWN_PROCESS                | STOPPED |
+| OpenVPNServiceInteractive                              | SHARE_PROCESS              | RUNNING |
+| OpenVPNServiceLegacy                                   | SHARE_PROCESS              | STOPPED |
+| osqueryd                                               | OWN_PROCESS                | STOPPED |
+| p2pimsvc                                               | SHARE_PROCESS              | STOPPED |
+| p2psvc                                                 | SHARE_PROCESS              | STOPPED |
+| PcaSvc                                                 | SHARE_PROCESS              | RUNNING |
+| perceptionsimulation                                   | OWN_PROCESS                | STOPPED |
+| PerfHost                                               | OWN_PROCESS                | STOPPED |
+| PhoneSvc                                               | SHARE_PROCESS              | STOPPED |
+| pla                                                    | SHARE_PROCESS              | STOPPED |
+| PlugPlay                                               | SHARE_PROCESS              | RUNNING |
+| PNRPAutoReg                                            | SHARE_PROCESS              | STOPPED |
+| PNRPsvc                                                | SHARE_PROCESS              | STOPPED |
+| PolicyAgent                                            | SHARE_PROCESS              | RUNNING |
+| Power                                                  | SHARE_PROCESS              | RUNNING |
+| PrintNotify                                            | SHARE_PROCESS(Interactive) | STOPPED |
+| ProfSvc                                                | SHARE_PROCESS              | RUNNING |
+| PushToInstall                                          | SHARE_PROCESS              | STOPPED |
+| Quick Update Service                                   | OWN_PROCESS                | RUNNING |
+| QWAVE                                                  | SHARE_PROCESS              | STOPPED |
+| RasAuto                                                | SHARE_PROCESS              | STOPPED |
+| RasMan                                                 | SHARE_PROCESS              | RUNNING |
+| RemoteAccess                                           | SHARE_PROCESS              | STOPPED |
+| RemoteRegistry                                         | SHARE_PROCESS              | STOPPED |
+| RepairService                                          | OWN_PROCESS                | RUNNING |
+| RetailDemo                                             | SHARE_PROCESS              | STOPPED |
+| RmSvc                                                  | SHARE_PROCESS              | RUNNING |
+| RpcEptMapper                                           | SHARE_PROCESS              | RUNNING |
+| RpcLocator                                             | OWN_PROCESS                | STOPPED |
+| RpcSs                                                  | SHARE_PROCESS              | RUNNING |
+| RtkAudioService                                        | OWN_PROCESS                | RUNNING |
+| SamSs                                                  | SHARE_PROCESS              | RUNNING |
+| ScanWscS                                               | OWN_PROCESS                | RUNNING |
+| SCardSvr                                               | SHARE_PROCESS              | STOPPED |
+| ScDeviceEnum                                           | SHARE_PROCESS              | STOPPED |
+| Schedule                                               | SHARE_PROCESS              | RUNNING |
+| SCPolicySvc                                            | SHARE_PROCESS              | STOPPED |
+| ScSecSvc                                               | OWN_PROCESS                | RUNNING |
+| SDRSVC                                                 | OWN_PROCESS                | STOPPED |
+| seclogon                                               | SHARE_PROCESS              | STOPPED |
+| SecurityHealthService                                  | OWN_PROCESS                | RUNNING |
+| SEMgrSvc                                               | OWN_PROCESS                | STOPPED |
+| SENS                                                   | SHARE_PROCESS              | RUNNING |
+| SensorDataService                                      | OWN_PROCESS                | STOPPED |
+| SensorService                                          | SHARE_PROCESS              | STOPPED |
+| SensrSvc                                               | SHARE_PROCESS              | STOPPED |
+| SessionEnv                                             | SHARE_PROCESS              | STOPPED |
+| SgrmBroker                                             | OWN_PROCESS                | RUNNING |
+| SharedAccess                                           | SHARE_PROCESS              | STOPPED |
+| SharedRealitySvc                                       | SHARE_PROCESS              | STOPPED |
+| ShellHWDetection                                       | SHARE_PROCESS              | RUNNING |
+| shpamsvc                                               | SHARE_PROCESS              | STOPPED |
+| smphost                                                | OWN_PROCESS                | STOPPED |
+| SmsRouter                                              | SHARE_PROCESS              | STOPPED |
+| SNMPTRAP                                               | OWN_PROCESS                | STOPPED |
+| spectrum                                               | OWN_PROCESS                | STOPPED |
+| Spooler                                                | OWN_PROCESS(Interactive)   | RUNNING |
+| sppsvc                                                 | OWN_PROCESS                | STOPPED |
+| SSDPSRV                                                | SHARE_PROCESS              | RUNNING |
+| ssh-agent                                              | OWN_PROCESS                | STOPPED |
+| SstpSvc                                                | SHARE_PROCESS              | RUNNING |
+| StateRepository                                        | SHARE_PROCESS              | RUNNING |
+| stisvc                                                 | OWN_PROCESS                | RUNNING |
+| StorSvc                                                | SHARE_PROCESS              | RUNNING |
+| svsvc                                                  | SHARE_PROCESS              | STOPPED |
+| swprv                                                  | OWN_PROCESS                | STOPPED |
+| SysMain                                                | SHARE_PROCESS              | RUNNING |
+| SystemEventsBroker                                     | SHARE_PROCESS              | RUNNING |
+| TabletInputService                                     | SHARE_PROCESS              | RUNNING |
+| TapiSrv                                                | SHARE_PROCESS              | STOPPED |
+| TermService                                            | SHARE_PROCESS              | STOPPED |
+| Themes                                                 | SHARE_PROCESS              | RUNNING |
+| ThunderboltService                                     | OWN_PROCESS                | STOPPED |
+| TieringEngineService                                   | OWN_PROCESS                | STOPPED |
+| TimeBrokerSvc                                          | SHARE_PROCESS              | RUNNING |
+| TokenBroker                                            | SHARE_PROCESS              | RUNNING |
+| TrkWks                                                 | SHARE_PROCESS              | RUNNING |
+| TroubleshootingSvc                                     | SHARE_PROCESS              | STOPPED |
+| TrustedInstaller                                       | OWN_PROCESS                | RUNNING |
+| tzautoupdate                                           | SHARE_PROCESS              | STOPPED |
+| UmRdpService                                           | SHARE_PROCESS              | STOPPED |
+| upnphost                                               | SHARE_PROCESS              | STOPPED |
+| UserManager                                            | SHARE_PROCESS              | RUNNING |
+| UsoSvc                                                 | SHARE_PROCESS              | RUNNING |
+| VacSvc                                                 | OWN_PROCESS                | STOPPED |
+| VaultSvc                                               | SHARE_PROCESS              | RUNNING |
+| VBoxSDS                                                | OWN_PROCESS                | STOPPED |
+| vds                                                    | OWN_PROCESS                | STOPPED |
+| vmicguestinterface                                     | SHARE_PROCESS              | STOPPED |
+| vmicheartbeat                                          | SHARE_PROCESS              | STOPPED |
+| vmickvpexchange                                        | SHARE_PROCESS              | STOPPED |
+| vmicrdv                                                | SHARE_PROCESS              | STOPPED |
+| vmicshutdown                                           | SHARE_PROCESS              | STOPPED |
+| vmictimesync                                           | SHARE_PROCESS              | STOPPED |
+| vmicvmsession                                          | SHARE_PROCESS              | STOPPED |
+| vmicvss                                                | SHARE_PROCESS              | STOPPED |
+| VSS                                                    | OWN_PROCESS                | STOPPED |
+| W32Time                                                | SHARE_PROCESS              | STOPPED |
+| WaaSMedicSvc                                           | SHARE_PROCESS              | STOPPED |
+| WalletService                                          | SHARE_PROCESS              | STOPPED |
+| wampapache64                                           | OWN_PROCESS                | STOPPED |
+| wampmariadb64                                          | OWN_PROCESS                | STOPPED |
+| wampmysqld64                                           | OWN_PROCESS                | STOPPED |
+| WarpJITSvc                                             | OWN_PROCESS                | STOPPED |
+| wbengine                                               | OWN_PROCESS                | STOPPED |
+| WbioSrvc                                               | SHARE_PROCESS              | RUNNING |
+| Wcmsvc                                                 | OWN_PROCESS                | RUNNING |
+| wcncsvc                                                | SHARE_PROCESS              | STOPPED |
+| WdiServiceHost                                         | SHARE_PROCESS              | RUNNING |
+| WdiSystemHost                                          | SHARE_PROCESS              | STOPPED |
+| WdNisSvc                                               | OWN_PROCESS                | STOPPED |
+| WebClient                                              | SHARE_PROCESS              | RUNNING |
+| Wecsvc                                                 | SHARE_PROCESS              | STOPPED |
+| WEPHOSTSVC                                             | SHARE_PROCESS              | STOPPED |
+| wercplsupport                                          | SHARE_PROCESS              | STOPPED |
+| WerSvc                                                 | OWN_PROCESS                | STOPPED |
+| WFDSConMgrSvc                                          | SHARE_PROCESS              | STOPPED |
+| WiaRpc                                                 | SHARE_PROCESS              | STOPPED |
+| WinDefend                                              | OWN_PROCESS                | STOPPED |
+| WinHttpAutoProxySvc                                    | SHARE_PROCESS              | RUNNING |
+| Winmgmt                                                | SHARE_PROCESS              | RUNNING |
+| WinRM                                                  | SHARE_PROCESS              | STOPPED |
+| wisvc                                                  | SHARE_PROCESS              | STOPPED |
+| WlanSvc                                                | OWN_PROCESS                | RUNNING |
+| wlidsvc                                                | SHARE_PROCESS              | RUNNING |
+| wlpasvc                                                | SHARE_PROCESS              | STOPPED |
+| WManSvc                                                | SHARE_PROCESS              | STOPPED |
+| wmiApSrv                                               | OWN_PROCESS                | RUNNING |
+| WMPNetworkSvc                                          | OWN_PROCESS                | STOPPED |
+| workfolderssvc                                         | SHARE_PROCESS              | STOPPED |
+| WpcMonSvc                                              | OWN_PROCESS                | STOPPED |
+| WPDBusEnum                                             | SHARE_PROCESS              | STOPPED |
+| WpnService                                             | SHARE_PROCESS              | RUNNING |
+| wscsvc                                                 | SHARE_PROCESS              | RUNNING |
+| WSearch                                                | OWN_PROCESS                | RUNNING |
+| wuauserv                                               | SHARE_PROCESS              | RUNNING |
+| WwanSvc                                                | SHARE_PROCESS              | STOPPED |
+| XblAuthManager                                         | SHARE_PROCESS              | STOPPED |
+| XblGameSave                                            | SHARE_PROCESS              | STOPPED |
+| XboxGipSvc                                             | SHARE_PROCESS              | STOPPED |
+| XboxNetApiSvc                                          | SHARE_PROCESS              | STOPPED |
+| AarSvc_bc70134                                         | UNKNOWN                    | STOPPED |
+| BcastDVRUserService_bc70134                            | UNKNOWN                    | STOPPED |
+| BluetoothUserService_bc70134                           | UNKNOWN                    | STOPPED |
+| CaptureService_bc70134                                 | UNKNOWN                    | STOPPED |
+| cbdhsvc_bc70134                                        | UNKNOWN                    | RUNNING |
+| CDPUserSvc_bc70134                                     | UNKNOWN                    | RUNNING |
+| ConsentUxUserSvc_bc70134                               | UNKNOWN                    | STOPPED |
+| CredentialEnrollmentManagerUserSvc_bc70134             | UNKNOWN                    | STOPPED |
+| DeviceAssociationBrokerSvc_bc70134                     | UNKNOWN                    | STOPPED |
+| DevicePickerUserSvc_bc70134                            | UNKNOWN                    | STOPPED |
+| DevicesFlowUserSvc_bc70134                             | UNKNOWN                    | STOPPED |
+| LxssManagerUser_bc70134                                | UNKNOWN                    | RUNNING |
+| MessagingService_bc70134                               | UNKNOWN                    | STOPPED |
+| OneSyncSvc_bc70134                                     | UNKNOWN                    | RUNNING |
+| PimIndexMaintenanceSvc_bc70134                         | UNKNOWN                    | STOPPED |
+| PrintWorkflowUserSvc_bc70134                           | UNKNOWN                    | STOPPED |
+| UnistoreSvc_bc70134                                    | UNKNOWN                    | STOPPED |
+| UserDataSvc_bc70134                                    | UNKNOWN                    | STOPPED |
+| WpnUserService_bc70134                                 | UNKNOWN                    | RUNNING |
++--------------------------------------------------------+----------------------------+---------+
+select * from system_info;
++-----------------+--------------------------------------+----------+-------------+------------------------------------------+--------------------+-------------------+---------------+-----------------+-----------------+----------------+------------------+-----------------+-----------------+-----------------+
+| hostname        | uuid                                 | cpu_type | cpu_subtype | cpu_brand                                | cpu_physical_cores | cpu_logical_cores | cpu_microcode | physical_memory | hardware_vendor | hardware_model | hardware_version | hardware_serial | computer_name   | local_hostname  |
++-----------------+--------------------------------------+----------+-------------+------------------------------------------+--------------------+-------------------+---------------+-----------------+-----------------+----------------+------------------+-----------------+-----------------+-----------------+
+| LAPTOP-C2C4TVQO | DF7B8201-080A-11E9-BB88-E86A648CD587 | x86_64   | -1          | Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz | 4                  | 8                 | 150           | 8425000960      | LENOVO          | 81BV           | -1               | PF1KTLEL        | LAPTOP-C2C4TVQO | LAPTOP-C2C4TVQO |
++-----------------+--------------------------------------+----------+-------------+------------------------------------------+--------------------+-------------------+---------------+-----------------+-----------------+----------------+------------------+-----------------+-----------------+-----------------+
+select username from users;
++--------------------+
+| username           |
++--------------------+
+| Administrator      |
+| Anushka            |
+| DefaultAccount     |
+| Guest              |
+| WDAGUtilityAccount |
+| SYSTEM             |
+| LOCAL SERVICE      |
+| NETWORK SERVICE    |
+|                    |
++--------------------+
