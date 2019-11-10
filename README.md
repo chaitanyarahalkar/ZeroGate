@@ -30,6 +30,8 @@ An Access Control Engine within the access proxy provides service-level authoriz
 
 ### Working:
 
+#### This implementation follows 8 steps:
+
 1. Initial Step: The browser tries to access the service. The client is not logged in and hence doesn't have a JSON Web Token (JWT).
 
 2. The service redirects the client to the SSO (Single Sign On service), due to the absence of JWT.
