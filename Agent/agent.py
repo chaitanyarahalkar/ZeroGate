@@ -102,12 +102,11 @@ except Exception as e:
 f = open("data.json","w+")
 f.write(str(data))
 f.close()
-'''
+
 data = open("data.json", 'r').read()
+data = data.replace("b\"b","")
+data = data.replace("\"","")
 final = ast.literal_eval(data)
-final = json.dumps(final)
-final = json.loads(final)
-'''
 data["uuid"] = uuid
 data["service"] = service_name
 
