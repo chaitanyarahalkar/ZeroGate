@@ -33,10 +33,10 @@ table_names = ["authorized_keys","block_devices","chrome_extensions","deb_packag
 
 #for Windows:
 
+columns=[['name', 'source'], ['device_id', 'encryption_method','protection_status'], ['name', 'version'], ['model', 'manufacturer','number_of_cores'], ['partitions', 'manufacturer','hardware_model','serial'], ['name'], ['name', 'version'], ['interface', 'address'], ['interface', 'mac','manufacturer'], ['version', 'device'], ['port', 'protocol'], ['user', 'type'], ['name', 'version','major','minor','patch','platform','platform_like','install_date'], ['csname', 'installed_on'], ['vendor', 'version','date'], ['processes'], ['name', 'service_type','status'], ['hostname', 'uuid','cpu_type','cpu_subtype','cpu_brand','cpu_physical_cores','cpu_logical_cores','cpu_microcode','physical_memory','hardware_vendor','hardware_model','hardware_version','hardware_serial','computer_name','local_hostname'], ['username']]
 queries = [
-   
- "select name,source from autoexec", #1
-    "select device_id,encryption_method,protection_status from bitlocker_info", #2
+	"select name,source from autoexec", #1
+	"select device_id,encryption_method,protection_status from bitlocker_info", #2
     "select name,version from chrome_extensions", #3
     "select model,manufacturer,number_of_cores from cpu_info", #4
     "select partitions,manufacturer,hardware_model,serial from disk_info", #5
@@ -60,7 +60,7 @@ queries = [
 table_names = [
    
    
-"autoexec", #1
+	"autoexec", #1
     "bitlocker_info", #2
     "chrome_extensions", #3
     "cpu_info", #4
@@ -87,17 +87,26 @@ data = dict()
 
 try:
 	# Spawn an osquery process using an ephemeral extension socket.
-	
 	instance = osquery.SpawnInstance()
 	instance.open()  # This may raise an exception
-	
-	for table,query in zip(table_names,queries):
+		
+	for table,query,column in zip(table_names,queries,columns):
 	# Issues queries and call osquery Thrift APIs.
-	        data[table] = instance.client.query(query).response
-	del instance
+		result = instance.client.query(query).response
+		data[table] = dict()
+		
+		for col in column:
+			data[table][col] = list()
+		
+		for row in result:
+			for key, val in row.items():
+				data[table][(key.decode()).split("b'",1)[1].split("'",1)[0]].append((val.decode()).split("b'",1)[1].split("'",1)[0])
+
+		
+	del instance	
 
 except Exception as e:
-	pass 
+	pass
 
 f = open("data.json","w+")
 f.write(str(data))
