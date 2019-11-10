@@ -86,32 +86,28 @@ table_names = [
 data = dict()
 
 try:
-# Spawn an osquery process using an ephemeral extension socket.
-	CLIENT = osquery.ExtensionClient()
-	CLIENT.open()
-    
-	#instance = osquery.SpawnInstance()
-	#instance.open()  # This may raise an exception
+	# Spawn an osquery process using an ephemeral extension socket.
+	
+	instance = osquery.SpawnInstance()
+	instance.open()  # This may raise an exception
 	
 	for table,query in zip(table_names,queries):
 	# Issues queries and call osquery Thrift APIs.
-	        #data[table] = instance.client.query(query).response
-	        RESULTS = CLIENT.extension_client().query(query).response
-	        data[table] = CLIENT.extension_client().query(query).response
-	        if RESULTS.status.code != 0:
-		        print("Error running the query: %s" % RESULTS.status.message)
-		        sys.exit(1) 
+	        data[table] = instance.client.query(query).response
 	del instance
 
 except Exception as e:
 	pass 
-# f = open("data.json","w+")
-# f.write(str(data).encode())
-# f.close()
-# data = open("data.json", 'r').read()
-# final = ast.literal_eval(data)
-# final = json.dumps(final)
-# final = json.loads(final)
+
+f = open("data.json","w+")
+f.write(str(data))
+f.close()
+'''
+data = open("data.json", 'r').read()
+final = ast.literal_eval(data)
+final = json.dumps(final)
+final = json.loads(final)
+'''
 data["uuid"] = uuid
 data["service"] = service_name
 
