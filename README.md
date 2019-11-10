@@ -3,7 +3,7 @@
 ### Abstract
 Virtual private networks have been the backbone of corporate network security for many years and are still considered as a viable solution for securing internal networks. As companies adopt mobile and cloud technologies, the perimeter is becoming increasingly difficult to enforce. Companies use firewalls to make their private network strong and robust to external threats. This perimeter security solution is flawed - if the perimeter security is compromised, then an attacker has relatively easy access to a highly privileged corporate network. VPN clients allow employees to access the intranet even if they are not in the network perimeter. We propose a new approach to tighten the corporate network security and completely eliminate the need for VPN clients. Our novel network architecture is one where Intranet services can be accessed over the Internet, safeguarded by an access control proxy.
 
-### Design:
+### Design
 The project is divided into 4 modules:
 
 1) Agent
@@ -12,9 +12,9 @@ The project is divided into 4 modules:
 4) Website Service
 
 
-### Implementation:
+### Implementation
 
-#### Technical Terminologies:
+#### Technical Terminologies
 
 1. **JWT**:
 A JSON Web Token (JWT) is JSON Object which is used to securely transfer information over the web (between two parties). It is used for an authentication system and can also be used for information exchange. The token is mainly composed of header, payload, signature. JWT defines the structure of information we are sending from one party to the other.
@@ -28,7 +28,7 @@ Single sign-on (SSO) is a session and user authentication service that permits a
 4. **Access Control Engine**:
 An Access Control Engine within the access proxy provides service-level authorization to enterprise applications on a per-request basis. The authorization decision makes assertions about the user, the device certificate, and artifacts of the device from the database. If necessary, the Access Control Engine can also enforce location-based access control. The inferred level of trust in the user and the device is also included in the authorization decision.
 
-### Working:
+### Working
 
 #### This implementation follows 8 steps:
 
