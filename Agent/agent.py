@@ -10,6 +10,8 @@ import osquery
 #@="\"C:\\Anushka\\beyondc_protocol.py\" \"%1\""
 
 # Parse the URL: beyondc://service_name?uuid=123-456-789
+
+IP = ""
 args = sys.argv[1:]
 
 if len(args) != 1:
@@ -111,17 +113,20 @@ except Exception as e:
 f = open("data.json","w+")
 f.write(str(data))
 f.close()
-'''
+
 data = open("data.json", 'r').read()
-data = data.replace("b\"b","")
-data = data.replace("\"","")
-final = ast.literal_eval(data)
-'''
+data = ast.literal_eval(data)
+data = json.dumps(data)
+data = json.loads(data)
+
 data["uuid"] = uuid
 data["service"] = service_name
 
+
 print(data)
-#r = requests.post("http://localhost:9001/submit/",json=final)
+json.dump(data,open("final-data.json","w"))
+
+r = requests.post("http://{}:9001/submit/".format(IP),json=final)
 
 
 # beyondc://action?uuid=
