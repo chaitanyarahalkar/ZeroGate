@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'sso.urls'
+ROOT_URLCONF = 'Single-Sign-On.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sso.wsgi.application'
+WSGI_APPLICATION = 'Single-Sign-On.wsgi.application'
 
 
 # Database

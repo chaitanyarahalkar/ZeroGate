@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'beyondcorp.urls'
+ROOT_URLCONF = 'Services.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'beyondcorp.wsgi.application'
+WSGI_APPLICATION = 'Services.wsgi.application'
 
 
 # Database
