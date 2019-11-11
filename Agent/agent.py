@@ -11,7 +11,7 @@ import osquery
 
 # Parse the URL: beyondc://service_name?uuid=123-456-789
 
-IP = ""
+IP = "172.20.10.4"
 args = sys.argv[1:]
 
 if len(args) != 1:
@@ -126,7 +126,7 @@ data["service"] = service_name
 print(data)
 json.dump(data,open("final-data.json","w"))
 
-r = requests.post("http://{}:9001/submit/".format(IP),json=final)
+r = requests.post("http://{}:9001/submit/".format(IP),json=data)
 
 
 # beyondc://action?uuid=

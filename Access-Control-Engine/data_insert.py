@@ -34,6 +34,6 @@ class Data(Resource):
 		return {"Result":1},200
 
 api.add_resource(Data,"/submit/")
-app.run(host='0.0.0.0',port=8080, debug=True)
+app.run(host='0.0.0.0',port=9001, debug=True)
 
 
