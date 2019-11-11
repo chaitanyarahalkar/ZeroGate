@@ -1,0 +1,48 @@
+{
+
+	"chrome_extensions": {
+
+		"name": ["Slides","Docs"],
+		"version": ["0.10","0.10"]
+
+	},
+	"deb_packages": {
+
+		"name": ["accountsservice","acl"],
+		"version": ["0.6.45-1ubuntu1", "2.2.52-3build1"]
+	},
+	"disk_encryption": {
+	
+		"name": [], 
+		"uuid": [], 
+		"encrypted": [], 
+		"type": []
+	},
+	"etc_services": {
+
+		"name": ["ssh","ftp"]
+	},
+	"firefox_addons": {
+
+		"name": ["AdBlocker Ultimate"],
+		"type": ["extension"],
+		"active": ["1"],
+		"disabled": ["0"]
+	},
+	"kernel_info": {
+
+		"version": ["5.0.0-32-generic"],
+	},
+	"os_version": {
+
+		"name": ["Ubuntu"],
+		"version": ["18.04.3 LTS (Bionic Beaver)"],
+		"major": ["18"],
+		"minor": ["4"], 
+		"patch": ["0"], 
+		"platform": ["ubuntu"], 
+		"platform_like": ["debian"]
+	}
+
+
+}
