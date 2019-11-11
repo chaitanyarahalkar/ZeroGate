@@ -103,10 +103,8 @@ try:
 			data[table][col] = list()
 		
 		for row in result:
-			for key, val in row.items():
-                    data[table][(key.decode()).split("b'",1)[1].split("'",1)[0]].append((val.decode()).split("b'",1)[1].split("'",1)[0])
+			for key, val in row.items(): data[table][(key.decode()).split("b'",1)[1].split("'",1)[0]].append((val.decode()).split("b'",1)[1].split("'",1)[0])
 
-		
 	del instance	
 
 except Exception as e:
