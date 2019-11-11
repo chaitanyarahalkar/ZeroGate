@@ -34,6 +34,7 @@ if platform == "linux" or platform == "linux2" or platform=="darwin":
     queries = ["select uid,key from authorized_keys","select name,model,uuid,size from block_devices","select name,version from chrome_extensions","select name,version from deb_packages","select name,uuid,encrypted,type from disk_encryption","select name from etc_services","select name,type,active,disabled from firefox_addons","select interface,address from interface_addresses","select interface,mac,manufacturer from interface_details","select version,device from kernel_info","select name,status from kernel_modules","select port,protocol from listening_ports","select path,type from mounts","select name,version,major,minor,patch,platform,platform_like,install_date from os_version","select vendor,version from platform_info","select processes from processes","select name,version,release from rpm_packages","select password_status,hash_alg,last_change,username from shadow","select * from system_info","select vendor,model from usb_devices","select username from users"]
     table_names = ["authorized_keys","block_devices","chrome_extensions","deb_packages","disk_encryption","etc_services","firefox_addons","interface_addresses","interface_details","kernel_info","kernel_modules","listening_ports","mounts","os_version","platform_info","processes","rpm_packages","shadow","system_info","usb_devices","users"]
     columns = [['uid', 'key'], ['name', 'model','uuid','size'], ['name', 'version'], ['name', 'version'], ['name', 'uuid','encrypted','type'], ['name'], ['name', 'type','active','disabled'], ['interface', 'address'], ['interface', 'mac','manufacturer'], ['version', 'device'], ['name', 'status'], ['port', 'protocol'], ['path', 'type'], ['name', 'version','major','minor','patch','platform','platform_like','install_date'], ['vendor', 'version'], ['processes'], ['password_status', 'hash_alg','last_change','username'], ['*'], ['vendor', 'model'], ['username']]
+
 elif platform == "win32":
     # Windows...
 
@@ -101,34 +102,48 @@ try:
 		
 		for col in column:
 			data[table][col] = list()
-		
-		for row in result:
-			for key, val in row.items(): data[table][(key.decode()).split("b'",1)[1].split("'",1)[0]].append((val.decode()).split("b'",1)[1].split("'",1)[0])
+
+		if platform == "linux" or platform == "linux2" or platform=="darwin":
+
+			for row in result:
+				for key, val in row.items(): data[table][key].append(val)
+		elif platform == "win32":
+
+			for row in result:
+				for key, val in row.items(): data[table][(key.decode()).split("b'",1)[1].split("'",1)[0]].append((val.decode()).split("b'",1)[1].split("'",1)[0])
 
 	del instance	
 
 except Exception as e:
 	pass
 
-f = open("data.json","w+")
-f.write(str(data))
-f.close()
+if platform == "linux" or platform == "linux2" or platform=="darwin":
+	f = open("linux-data.json","w+")
+	f.write(str(data))
+	f.close()
 
-data = open("data.json", 'r').read()
-data = ast.literal_eval(data)
-data = json.dumps(data)
-data = json.loads(data)
+	data = open("linux-data.json", 'r').read()
+	data = ast.literal_eval(data)
+	data = json.dumps(data)
+	data = json.loads(data)
+elif platform == "win32":
+
+	f = open("windows-data.json","w+")
+	f.write(str(data))
+	f.close()
+
+	data = open("windows-data.json", 'r').read()
+	data = ast.literal_eval(data)
+	data = json.dumps(data)
+	data = json.loads(data)
 
 data["uuid"] = uuid
 data["service"] = service_name
 
 
 print(data)
-json.dump(data,open("final-data.json","w"))
+
+if platform == "linux" or platform == "linux2" or platform=="darwin": json.dump(data,open("linux-final-data.json","w"))
+elif platform=="win32": json.dump(data,open("windows-final-data.json","w"))
 
 r = requests.post("http://{}:9001/submit/".format(IP),json=data)
-
-
-# beyondc://action?uuid=
-
-
