@@ -79,8 +79,8 @@ class TrustScoreChecker(Resource):
 			agent_details["revoked"] = 1
 			
 
-		encoded = jwt.encode(agent_details,key,algorithm='HS256')
-		r = requests.post(URL, data = {"jwt" : encoded }) 
+		token = jwt.encode(agent_details,key,algorithm='HS256').decode()
+		r = requests.post(URL, data = {"jwt" : token }) 
 
 		return r.status_code 
 		
