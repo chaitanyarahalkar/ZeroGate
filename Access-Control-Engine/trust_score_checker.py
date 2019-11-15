@@ -9,16 +9,16 @@ app = Flask(__name__)
 api = Api(app)
 
 class Users(Resource):
+
 	def post(self):
 		parser = reqparse.RequestParser()
 		parser.add_argument("confidence")
 		agent_details = parser.parse_args()
 		agent_details['confidence'] = float(agent_details['confidence'])
-		print(agent_details['confidence'])
 
 		if agent_details['confidence'] > 0.5:
 			encoded = jwt.encode(agent_details,key,algorithm='HS256')
-			return {'token':encoded.decode('ascii')},200
+			return {'token': encoded.decode('ascii')},200
 		else:
 			return {'error':'Trust score is below threshold'},404
 

@@ -117,7 +117,7 @@ try:
 except Exception as e:
 	pass
 
-if platform == "linux" or platform == "linux2" or platform=="darwin":
+if platform == "linux" or platform == "linux2" or platform == "darwin":
 	f = open("linux-data.json","w+")
 	f.write(str(data))
 	f.close()

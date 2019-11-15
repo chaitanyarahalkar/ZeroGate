@@ -3,6 +3,9 @@ from pymongo import MongoClient
 from deepdiff import DeepDiff 
 from flask import Flask 
 from flask_restful import Api, Resource, reqparse
+import requests 
+import jwt 
+from jwt.exceptions import InvalidSignatureError
 
 
 # DB Initializers 
@@ -10,16 +13,22 @@ client =  MongoClient('localhost',27017)
 db = client.mock
 collection = db.deviceInfo
 
+# Flask initializers
+app = Flask(__name__)
+api = Api(app)
+key = 'secret'
+
 
 # Get the static list 
 static_list = json.load(open("static_list_linux.json"))
 static_list_items = list(static_list.keys())
 
 
-table_names = ["authorized_keys","block_devices","chrome_extensions","deb_packages","disk_encryption","etc_services","firefox_addons","interface_addresses","interface_details","kernel_info","kernel_modules","listening_ports","mounts","os_version","platform_info","processes","rpm_packages","shadow","system_info","usb_devices","users"]
+table_names = ["authorized_keys","block_devices","chrome_extensions","deb_packages","disk_encryption","etc_services","firefox_addons","interface_addresses","interface_details","kernel_info","kernel_modules","listening_ports","mounts","os_version","platform_info","processes","rpm_packages","shadow","system_info","usb_devices","users","uuid"]
 
 
 class TrustScoreChecker(Resource):
+
 	def post(self):
 		parser = reqparse.RequestParser()
 		for table in table_names:
@@ -61,16 +70,19 @@ class TrustScoreChecker(Resource):
 			# insert the payload in the database
 			post_id = collection.insert_one(payload).inserted_id 
 
-		print(trust_score) 
 
-		return {"Result":1},200
+		if trust_score > 0.5:
+			agent_details = {"uuid": uuid}
+			encoded = jwt.encode(agent_details,key,algorithm='HS256')
+			r = requests.post(URL, data = {"jwt": encoded.decode('ascii') })
+			return r.status_code 
+		
+
+		return trust_score
 		
 
 api.add_resource(TrustScoreChecker,"/submit/")
 app.run(host='0.0.0.0',port=9001, debug=True)
-
-
-# Check the recieved payload - TODO - Convert this to API handler 
 
 
 
