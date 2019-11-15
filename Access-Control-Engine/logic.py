@@ -71,14 +71,18 @@ class TrustScoreChecker(Resource):
 			post_id = collection.insert_one(payload).inserted_id 
 
 
+		agent_details = {"uuid": uuid}
 		if trust_score > 0.5:
-			agent_details = {"uuid": uuid}
-			encoded = jwt.encode(agent_details,key,algorithm='HS256')
-			r = requests.post(URL, data = {"jwt": encoded.decode('ascii') })
-			return r.status_code 
-		
+			agent_details["revoked"] = 0
 
-		return trust_score
+		else:
+			agent_details["revoked"] = 1
+			
+
+		encoded = jwt.encode(agent_details,key,algorithm='HS256')
+		r = requests.post(URL, data = {"jwt" : encoded }) 
+
+		return r.status_code 
 		
 
 api.add_resource(TrustScoreChecker,"/submit/")
