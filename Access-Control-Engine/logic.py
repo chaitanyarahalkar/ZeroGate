@@ -17,14 +17,17 @@ collection = db.deviceInfo
 app = Flask(__name__)
 api = Api(app)
 key = 'secret'
+URL = "127.0.0.1"
 
 
 # Get the static list 
 static_list = json.load(open("static_list_linux.json"))
+user_privs = json.load(open("user_privs.json"))
+
 static_list_items = list(static_list.keys())
 
 
-table_names = ["authorized_keys","block_devices","chrome_extensions","deb_packages","disk_encryption","etc_services","firefox_addons","interface_addresses","interface_details","kernel_info","kernel_modules","listening_ports","mounts","os_version","platform_info","processes","rpm_packages","shadow","system_info","usb_devices","users","uuid"]
+table_names = ["authorized_keys","block_devices","chrome_extensions","deb_packages","disk_encryption","etc_services","firefox_addons","interface_addresses","interface_details","kernel_info","kernel_modules","listening_ports","mounts","os_version","platform_info","processes","rpm_packages","shadow","system_info","usb_devices","users","temp_uuid"]
 
 
 class TrustScoreChecker(Resource):
@@ -35,9 +38,11 @@ class TrustScoreChecker(Resource):
 			parser.add_argument(table,action='append')
 
 		payload = parser.parse_args()
-		uuid = payload["uuid"]
+		uuid = payload.get("temp_uuid")[0]
+		print(uuid)
 
 		result = collection.find_one({"uuid":uuid})
+		threshold = user_privs.get(uuid).get("score")
 		# Checking for static list fields in the payload 
 		trust_score = 0.0
 
@@ -72,7 +77,7 @@ class TrustScoreChecker(Resource):
 
 
 		agent_details = {"uuid": uuid}
-		if trust_score > 0.5:
+		if trust_score > threshold:
 			agent_details["revoked"] = 0
 
 		else:
@@ -80,9 +85,12 @@ class TrustScoreChecker(Resource):
 			
 
 		token = jwt.encode(agent_details,key,algorithm='HS256').decode()
-		r = requests.post(URL, data = {"jwt" : token }) 
-
-		return r.status_code 
+		#r = requests.post(URL, data = {"jwt" : token }) 
+		print(token)
+		print(agent_details)
+		print(threshold)
+		return token
+		#return r.status_code 
 		
 
 api.add_resource(TrustScoreChecker,"/submit/")
