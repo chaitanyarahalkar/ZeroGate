@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+import dashboard.views as views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^submit/',views.trust_score_checker)
 ]
