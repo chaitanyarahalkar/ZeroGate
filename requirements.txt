@@ -2,7 +2,7 @@ aniso8601==8.0.0
 cffi==1.13.2
 Click==7.0
 cryptography==2.8
-Django==2.2.7
+Django==2.2.8
 django-crispy-forms==1.8.0
 djangorestframework==3.10.3
 djangorestframework-jwt==1.11.0
