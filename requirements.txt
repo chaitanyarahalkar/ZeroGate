@@ -2,6 +2,7 @@ aniso8601==8.0.0
 cffi==1.13.2
 Click==7.0
 cryptography==2.8
+deepdiff==4.0.9
 Django==2.2.8
 django-crispy-forms==1.8.0
 djangorestframework==3.10.3
@@ -11,11 +12,15 @@ Flask-RESTful==0.3.7
 future==0.18.2
 itsdangerous==1.1.0
 Jinja2==2.10.3
+jsonpickle==1.2
 jwt==0.6.1
 MarkupSafe==1.1.1
+ordered-set==3.1.1
 osquery==3.0.6
+pkg-resources==0.0.0
 pycparser==2.19
 PyJWT==1.7.1
+pymongo==3.10.0
 pytz==2019.3
 six==1.13.0
 sqlparse==0.3.0
