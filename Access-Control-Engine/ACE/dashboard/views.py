@@ -6,7 +6,7 @@ import json
 from pymongo import MongoClient
 from deepdiff import DeepDiff 
 import jwt 
-from jwt.exceptions import InvalidSignatureError
+# from jwt.exceptions import InvalidSignatureError
 
 
 # DB Initializers 
