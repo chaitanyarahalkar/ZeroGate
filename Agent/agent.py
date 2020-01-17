@@ -1,7 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
-import urllib.parse
 import os
 import requests
 import json
@@ -12,7 +11,7 @@ from sys import platform
 
 # Parse the URL: beyondc://service_name?uuid=123-456-789
 
-IP = "172.20.10.4"
+IP = "localhost"
 args = sys.argv[1:]
 
 if len(args) != 1:
@@ -115,7 +114,7 @@ try:
 	del instance	
 
 except Exception as e:
-	pass
+	print(e)
 
 if platform == "linux" or platform == "linux2" or platform == "darwin":
 	f = open("linux-data.json","w+")

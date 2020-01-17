@@ -1,9 +1,9 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, HttpResponse
 import uuid
 from django.http import HttpResponseRedirect
 import jwt
-from jwt.exceptions import InvalidSignatureError
 
+service_mapping = {"service1.local":"http://127.0.0.1:9000","service2.local":"http://localhost:9001"}
 
 HttpResponseRedirect.allowed_schemes.append('beyondc')
 
@@ -13,22 +13,26 @@ threshold = 0.5
 
 def agent_invoke(request):
 
-	link = "beyondc://service1?uuid=" + uuid.uuid4().__str__()
-	return HttpResponseRedirect(link)
+	header_dict = dict(request.headers.items())
 
+	if request.META.get('HTTP_HOST') == "service1.local" and not "Authorization" in header_dict.keys():
+		link = "beyondc://service1?uuid=" + uuid.uuid4().__str__()
+		return HttpResponseRedirect(link)
 
+	else:
+		service = request.META.get("HTTP_HOST")
+		token = header_dict.get("Authorization")
 
-def score_checker(request):
-	if request.method == "POST":
 		try:
-			token = request.POST.get("jwt")
-			token = jwt.decode(token, key, algorithm='HS256')
+			token = jwt.decode(token,key, algorithm='HS256')
+			confidence = float(token.get('confidence'))
 
-			if token['confidence'] > threshold:
-				# allow 
+			if confidence > threshold:
+				return redirect(service_mapping.get(service))
 
-			else:
-				# revoke
+		except Exception as e:
+			return HttpResponse("You are not authorized!")
 
-		except InvalidSignatureError as e:
-			# revoke
+
+
+
