@@ -145,7 +145,8 @@ if platform == "linux" or platform == "linux2" or platform=="darwin": json.dump(
 elif platform=="win32": json.dump(data,open("windows-final-data.json","w"))
 
 
+
 headers = {"Content-type":"application/json","Accept":"text/plain"}
-r = requests.post("http://{}:9001/submit/".format(IP),data=data,headers=headers)
+r = requests.post("http://{}:9001/submit/".format(IP),data=open("linux-final-data.json","rb"),headers=headers)
 
 print(r.text)
