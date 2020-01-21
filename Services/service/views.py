@@ -4,7 +4,7 @@ import uuid
 from django.http import HttpResponseRedirect
 from .forms import UserRegisterForm
 from django.contrib import messages
-
+from django.shortcuts import HttpResponse
 
 def home(request):
     return HttpResponse('Hello, World!')
@@ -14,7 +14,7 @@ def register(request):
         
         header_dict = dict(request.headers.items())
         if "Authorization" not in header_dict.keys():
-            return HttpResponseRedirect("http://127.0.0.1:8000/submit/{}".format(request.POST.get("username")))
+            return HttpResponseRedirect("http://127.0.0.1:8000/submit/{}/".format(request.POST.get("username")))
 
         form = UserRegisterForm(request.POST)
         if form.is_valid():
@@ -28,3 +28,5 @@ def register(request):
 
 
 
+def revoked(request):
+    return HttpResponse("You are not authorized!")

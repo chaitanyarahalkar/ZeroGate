@@ -6,6 +6,7 @@ import json
 from pymongo import MongoClient
 from deepdiff import DeepDiff 
 import jwt 
+import requests
 # from jwt.exceptions import InvalidSignatureError
 
 
@@ -38,8 +39,7 @@ def trust_score_checker(request):
 
 		uuid = payload["temp_uuid"]
 		username = payload["username"]
-		result = collection.find_one({"uuid": uuid})
-		print(payload["username"])
+		result = collection.find_one({"temp_uuid": uuid})
 		role = User.objects.get(username = payload["username"]).role
 		threshold =  Resources.objects.get(role = role).score
 		service = Resources.objects.get(role = role).service 
@@ -86,6 +86,8 @@ def trust_score_checker(request):
 
 
 		token = jwt.encode(agent_details, key, algorithm='HS256').decode()
+
+		r = requests.post("http://localhost:8000/submit/{}/".format(username),headers={'Authorization':token},data={'ok':1})
 
 		return HttpResponse(token)
 

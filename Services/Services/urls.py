@@ -28,5 +28,6 @@ urlpatterns = [
    # path('hello/', views.HelloView.as_view(), name='hello'),
    # path('api-token-auth/', obtain_auth_token, name='api-token-auth'),
    	url(r'^$', views.register, name='register'),
+    url(r'^revoked',views.revoked,name='revoked')
     # url(r'^$', views.check_jwt, name='check_jwt'),
 ]
