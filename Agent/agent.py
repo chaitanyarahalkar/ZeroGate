@@ -135,7 +135,7 @@ elif platform == "win32":
 	data = json.dumps(data)
 	data = json.loads(data)
 
-data["uuid"] = uuid
+data["temp_uuid"] = uuid
 data["service"] = service_name
 data["username"] = username
 
@@ -144,4 +144,8 @@ open("/tmp/write.txt","w").write(str(data))
 if platform == "linux" or platform == "linux2" or platform=="darwin": json.dump(data,open("linux-final-data.json","w"))
 elif platform=="win32": json.dump(data,open("windows-final-data.json","w"))
 
-r = requests.post("http://{}:9001/submit/".format(IP),json=data)
+
+headers = {"Content-type":"application/json","Accept":"text/plain"}
+r = requests.post("http://{}:9001/submit/".format(IP),data=data,headers=headers)
+
+print(r.text)

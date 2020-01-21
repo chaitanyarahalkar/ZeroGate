@@ -24,18 +24,20 @@ static_list = json.load(open("../static_list_linux.json"))
 static_list_items = list(static_list.keys())
 
 
-table_names = ["authorized_keys","block_devices","chrome_extensions","deb_packages","disk_encryption","etc_services","firefox_addons","interface_addresses","interface_details","kernel_info","kernel_modules","listening_ports","mounts","os_version","platform_info","processes","rpm_packages","shadow","system_info","usb_devices","users","temp_uuid","username"]
+table_names = ["authorized_keys","block_devices","chrome_extensions","deb_packages","disk_encryption","etc_services","firefox_addons","interface_addresses","interface_details","kernel_info","kernel_modules","listening_ports","mounts","os_version","platform_info","processes","rpm_packages","shadow","system_info","usb_devices","users","temp_uuid","service","username"]
 
 @csrf_exempt
 def trust_score_checker(request):
 	payload = dict()
 
 	if request.method == "POST":
-		for table in table_names:
-			payload[table] = request.POST.get(table)
-
+		# print(request.body)
+		# for table in table_names:
+		# 	payload[table] = request.POST.get(table)
+		payload = json.loads(request.body)
 
 		uuid = payload["temp_uuid"]
+		username = payload["username"]
 		result = collection.find_one({"uuid": uuid})
 		print(payload["username"])
 		role = User.objects.get(username = payload["username"]).role
