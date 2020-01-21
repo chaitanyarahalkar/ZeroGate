@@ -13,8 +13,8 @@ def register(request):
     if request.method == 'POST':
         
         header_dict = dict(request.headers.items())
-        if not "Authorization" in header_dict.keys():
-            return redirect("http://127.0.0.1:8000/")
+        if "Authorization" not in header_dict.keys():
+            return HttpResponseRedirect("http://127.0.0.1:8000/submit/{}".format(request.POST.get("username")))
 
         form = UserRegisterForm(request.POST)
         if form.is_valid():

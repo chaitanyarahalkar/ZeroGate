@@ -1,0 +1,2 @@
+curl -L -H "Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb25maWRlbmNlIjowLjh9.kvRPfjAhLhtRTczoRgctVGp7KY1QVH3UBZM-gM0x8ec" service1.local -> correct jwt 
+curl -L -H "Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb25maWRlbmNlIjowLjh9.kvRPfjAhLhtRTczoRgctVGp7KY1QVH3UBZM-gM0x8eh" service1.local -> incorrect jwt

@@ -37,6 +37,7 @@ def trust_score_checker(request):
 
 		uuid = payload["temp_uuid"]
 		result = collection.find_one({"uuid": uuid})
+		print(payload["username"])
 		role = User.objects.get(username = payload["username"]).role
 		threshold =  Resources.objects.get(role = role).score
 		service = Resources.objects.get(role = role).service 

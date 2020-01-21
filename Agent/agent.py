@@ -17,14 +17,13 @@ args = sys.argv[1:]
 if len(args) != 1:
     sys.exit(0)
 
-
 # This is where you can do something productive based on the params and the
 # action value in the URL. For now we'll just print out the contents of the
 # parsed URL.
 
-
 service_name, uuid_details = args[0].split("://", 1)[1].split("?",1)
-uuid = uuid_details.split("=",1)[1]
+uuid = uuid_details.split("=",1)[1].split("&")[0]
+username = args[0].split("://")[1].split("?",1)[1].split("&")[1].split("=")[1]
 
 #check platform on which agent is running
 
@@ -138,9 +137,9 @@ elif platform == "win32":
 
 data["uuid"] = uuid
 data["service"] = service_name
+data["username"] = username
 
-
-print(data)
+open("/tmp/write.txt","w").write(str(data))
 
 if platform == "linux" or platform == "linux2" or platform=="darwin": json.dump(data,open("linux-final-data.json","w"))
 elif platform=="win32": json.dump(data,open("windows-final-data.json","w"))

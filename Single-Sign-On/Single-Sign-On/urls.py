@@ -20,5 +20,5 @@ import app.views as views
 from django.conf.urls import url
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$', views.agent_invoke, name='agent_invoke'),
+    path('submit/<str:username>/', views.agent_invoke, name='agent_invoke'),
 ]
