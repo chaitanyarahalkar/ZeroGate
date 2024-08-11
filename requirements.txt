@@ -7,7 +7,7 @@ cryptography==2.8
 deepdiff==4.0.9
 Django==2.2.10
 django-crispy-forms==1.8.0
-djangorestframework==3.10.3
+djangorestframework==3.15.2
 djangorestframework-jwt==1.11.0
 Flask==1.1.1
 Flask-RESTful==0.3.7
