@@ -1,4 +1,4 @@
-# Quick Heal - BE Project
+# ZeroGate
 
 ### Abstract
 Virtual private networks have been the backbone of corporate network security for many years and are still considered as a viable solution for securing internal networks. As companies adopt mobile and cloud technologies, the perimeter is becoming increasingly difficult to enforce. Companies use firewalls to make their private network strong and robust to external threats. This perimeter security solution is flawed - if the perimeter security is compromised, then an attacker has relatively easy access to a highly privileged corporate network. VPN clients allow employees to access the intranet even if they are not in the network perimeter. We propose a new approach to tighten the corporate network security and completely eliminate the need for VPN clients. Our novel network architecture is one where Intranet services can be accessed over the Internet, safeguarded by an access control proxy.
